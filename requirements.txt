@@ -1,0 +1,6 @@
+datasets
+json-lines
+pydub
+tqdm
+transformers
+nemo-toolkit-asr
