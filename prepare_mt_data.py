@@ -3,11 +3,12 @@ from datasets import Dataset, DatasetDict
 from transformers import AutoTokenizer
 from constants import (
     CSV_FILE, TRAIN_DATA_PATH, VAL_DATA_PATH,
+    ALLOPHANT_TRAIN_PATH, ALLOPHANT_VAL_PATH,
     MODEL_CHECKPOINT, SRC_LANG_CODE, TGT_LANG_CODE
 )
 
 
-def prepare_data():
+def prepare_data(tira_col: str, train_path: str, val_path: str):
     print("="*40)
     print("🛠️ Tira Translation Data Prep")
     print("="*40)
@@ -15,8 +16,8 @@ def prepare_data():
     print(f"\n📂 Loading raw data from {CSV_FILE}...")
     try:
         df = pd.read_csv(CSV_FILE)
-        df = df[['transcription', 'translation', 'split']].dropna()
-        df = df.rename(columns={'transcription': 'src_text', 'translation': 'tgt_text'})
+        df = df[[tira_col, 'translation', 'split']].dropna()
+        df = df.rename(columns={tira_col: 'src_text', 'translation': 'tgt_text'})
         df = df.astype(str)
         print(f"   Found {len(df)} valid translation pairs.")
     except Exception as e:
@@ -53,9 +54,10 @@ def prepare_data():
     tokenized_datasets = datasets.map(preprocess_function, batched=True, remove_columns=datasets['train'].column_names)
 
     print(f"\n💾 Saving tokenized data to disk...")
-    tokenized_datasets["train"].save_to_disk(TRAIN_DATA_PATH)
-    tokenized_datasets["validation"].save_to_disk(VAL_DATA_PATH)
+    tokenized_datasets["train"].save_to_disk(train_path)
+    tokenized_datasets["validation"].save_to_disk(val_path)
     print("\n✅ Data preparation complete!")
 
 if __name__ == "__main__":
-    prepare_data()
+    prepare_data("transcription", TRAIN_DATA_PATH, VAL_DATA_PATH)
+    prepare_data("allophant_phonemes", ALLOPHANT_TRAIN_PATH, ALLOPHANT_VAL_PATH)
