@@ -24,11 +24,15 @@ def prepare_data():
         return
 
     print("\n🔄 Converting to HF Dataset format...")
-    full_dataset = Dataset.from_pandas(df)
-    dataset_splits = full_dataset.train_test_split(test_size=0.1, seed=42)
+    df = df.drop_duplicates().reset_index(drop=True)
+    train_mask = df['split'] == 'train'
+    val_mask = df['split'] == 'validation'
+
+    train_dataset = Dataset.from_pandas(df[train_mask].reset_index(drop=True))
+    val_dataset = Dataset.from_pandas(df[val_mask].reset_index(drop=True))
     datasets = DatasetDict({
-        'train': dataset_splits['train'],
-        'validation': dataset_splits['test']
+        'train': train_dataset,
+        'validation': val_dataset
     })
 
     print(f"\n⬇️  Loading tokenizer ({MODEL_CHECKPOINT})...")
