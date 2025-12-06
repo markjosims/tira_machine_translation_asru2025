@@ -15,7 +15,7 @@ def prepare_data():
     print(f"\n📂 Loading raw data from {CSV_FILE}...")
     try:
         df = pd.read_csv(CSV_FILE)
-        df = df[['transcription', 'translation']].dropna()
+        df = df[['transcription', 'translation', 'split']].dropna()
         df = df.rename(columns={'transcription': 'src_text', 'translation': 'tgt_text'})
         df = df.astype(str)
         print(f"   Found {len(df)} valid translation pairs.")
@@ -24,6 +24,8 @@ def prepare_data():
         return
 
     print("\n🔄 Converting to HF Dataset format...")
+    na_mask = df['src_text'] == 'n/a'
+    df = df[~na_mask]
     df = df.drop_duplicates(subset='src_text').reset_index(drop=True)
     train_mask = df['split'] == 'train'
     val_mask = df['split'] == 'validation'
