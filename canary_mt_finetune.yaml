@@ -7,7 +7,7 @@ trainer:
   devices: 1
   num_nodes: 1
   accelerator: gpu
-  strategy: ddp
+  strategy: auto
   precision: bf16-mixed # Canary Qwen works best with bf16
   max_epochs: 5
   log_every_n_steps: 10
