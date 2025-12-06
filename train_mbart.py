@@ -75,7 +75,6 @@ def main():
         logging_steps=50,
         report_to="none",
         load_best_model_at_end=True,
-        compute_metrics=compute_metrics,
         greater_is_better=True,
         metric_for_best_model="bleu",
         # dataloader_num_workers=num_workers
@@ -88,6 +87,7 @@ def main():
         eval_dataset=val_dataset,
         data_collator=data_collator,
         tokenizer=tokenizer,
+        compute_metrics=compute_metrics,
     )
 
     print(f"\n🔥 STARTING FINE-TUNING 🔥")
