@@ -41,7 +41,7 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_CHECKPOINT)
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
-    print("\nDefining metrics...")
+    print("\n🎯 Defining metrics...")
     def compute_metrics(eval_preds):
         preds, labels = eval_preds
         if isinstance(preds, tuple):
