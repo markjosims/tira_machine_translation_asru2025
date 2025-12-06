@@ -3,7 +3,7 @@ import torch
 from transformers import (
     AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 )
-from datasets import load_from_disk
+from datasets import load_from_disk, load_metric
 from constants import (
     MODEL_CHECKPOINT, OUTPUT_DIR, TRAIN_DATA_PATH, VAL_DATA_PATH
 )
@@ -36,7 +36,24 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_CHECKPOINT)
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
-    print("\n⚙️  Configuring training parameters (Low VRAM Mode)...")
+    print("\nDefining metrics...")
+    def compute_metrics(eval_preds):
+        metric = load_metric("sacrebleu")
+        preds, labels = eval_preds
+        if isinstance(preds, tuple):
+            preds = preds[0]
+        decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
+        # Replace -100 in the labels as we can't decode them
+        labels = [[(l if l != -100 else tokenizer.pad_token_id) for l in label] for label in labels]
+        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+        # Some simple post-processing
+        decoded_preds = [pred.strip() for pred in decoded_preds]
+        decoded_labels = [[label.strip()] for label in decoded_labels]
+        result = metric.compute(predictions=decoded_preds, references=decoded_labels)
+        result = {"bleu": result["score"]}
+        return result
+
+    print("\n⚙️  Configuring training parameters...")
 
     batch_size = 16
     gradient_accumulation = 1
@@ -57,6 +74,9 @@ def main():
         logging_steps=50,
         report_to="none",
         load_best_model_at_end=True,
+        compute_metrics=compute_metrics,
+        greater_is_better=True,
+        metric_for_best_model="bleu",
         # dataloader_num_workers=num_workers
     )
 
