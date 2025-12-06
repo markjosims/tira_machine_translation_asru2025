@@ -57,7 +57,6 @@ def main():
         blue_score = bleu.compute(predictions=decoded_preds, references=decoded_labels)
 
         decoded_labels = [label[0] for label in decoded_labels]
-        decoded_preds = [pred[0] for pred in decoded_preds]
 
         if print_outputs:
             print("\nSample Predictions vs References:")
