@@ -50,6 +50,29 @@ model:
       adapter_dropout: 0.05
       target_modules: ['q_proj', 'v_proj', 'k_proj', 'o_proj'] # Standard Qwen targets
 
+  perception:
+    # 1. Feature Extractor (Conformer/FastConformer standard)
+    feat_freq: 80
+    feat_dims: 1024
+
+    # 2. Audio Preprocessor Configuration
+    preprocessor:
+      _target_: nemo.collections.asr.modules.AudioToMelSpectrogramPreprocessor
+      sample_rate: 16000
+      features: 80
+      window_size: 0.025
+      window_stride: 0.01
+      normalize: "per_feature"
+      dither: 0.0
+      pad_to: 16
+
+    # 3. Encoder Configuration (Required to define the FastConformer)
+    encoder:
+      _target_: nemo.collections.asr.modules.ConformerEncoder
+      feat_in: 80
+      n_layers: 32 # Canary-1b-flash has 32 encoder layers
+      d_model: 1024
+
   # Data Configuration
   data:
     # --- TRAIN DATA ---
