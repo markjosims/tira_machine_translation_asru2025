@@ -3,7 +3,8 @@ import torch
 from transformers import (
     AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 )
-from datasets import load_from_disk, load_metric
+from datasets import load_from_disk
+from evaluate import load
 from constants import (
     MODEL_CHECKPOINT, OUTPUT_DIR, TRAIN_DATA_PATH, VAL_DATA_PATH
 )
@@ -38,7 +39,7 @@ def main():
 
     print("\nDefining metrics...")
     def compute_metrics(eval_preds):
-        metric = load_metric("sacrebleu")
+        metric = load("sacrebleu")
         preds, labels = eval_preds
         if isinstance(preds, tuple):
             preds = preds[0]
