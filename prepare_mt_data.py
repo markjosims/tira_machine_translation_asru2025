@@ -16,7 +16,7 @@ def prepare_data():
     try:
         df = pd.read_csv(CSV_FILE)
         df = df[['transcription', 'translation']].dropna()
-        df = df.rename(columns={'text': 'src_text', 'translation': 'tgt_text'})
+        df = df.rename(columns={'transcription': 'src_text', 'translation': 'tgt_text'})
         df = df.astype(str)
         print(f"   Found {len(df)} valid translation pairs.")
     except Exception as e:
