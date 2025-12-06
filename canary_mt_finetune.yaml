@@ -73,6 +73,13 @@ model:
       n_layers: 32 # Canary-1b-flash has 32 encoder layers
       d_model: 1024
 
+    modality_adapter:
+      _target_: nemo.collections.speechlm2.parts.submodules.multimodal_projector.MultimodalProjector
+      input_size: 1024   # Output dimension of Canary-1B Encoder
+      output_size: 2048  # Hidden dimension of Qwen-1.7B LLM
+      projector_type: "linear" # Canary Qwen uses a simple linear projection
+      bias: true
+
   # Data Configuration
   data:
     # --- TRAIN DATA ---
