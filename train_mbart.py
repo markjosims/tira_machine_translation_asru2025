@@ -75,7 +75,7 @@ def main():
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
         gradient_accumulation_steps=gradient_accumulation,
-        num_train_epochs=3,
+        num_train_epochs=10,
         weight_decay=0.01,
         save_total_limit=2,
         predict_with_generate=True,
