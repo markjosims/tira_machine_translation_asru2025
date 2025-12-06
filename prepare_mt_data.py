@@ -24,7 +24,7 @@ def prepare_data():
         return
 
     print("\n🔄 Converting to HF Dataset format...")
-    df = df.drop_duplicates(by='src_text').reset_index(drop=True)
+    df = df.drop_duplicates(subset='src_text').reset_index(drop=True)
     train_mask = df['split'] == 'train'
     val_mask = df['split'] == 'validation'
 
