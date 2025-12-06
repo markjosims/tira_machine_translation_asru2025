@@ -51,11 +51,18 @@ model:
       target_modules: ['q_proj', 'v_proj', 'k_proj', 'o_proj'] # Standard Qwen targets
 
   perception:
-    # 1. Feature Extractor (Conformer/FastConformer standard)
-    feat_freq: 80
-    feat_dims: 1024
+    _target_: nemo.collections.speechlm2.modules.perception.AudioPerceptionModule
+    output_dim: 2048  # Crucial: This matches Qwen's embedding size
 
-    # 2. Audio Preprocessor Configuration
+    # The Encoder (Canary-1B Flash uses FastConformer)
+    encoder:
+      _target_: nemo.collections.asr.modules.ConformerEncoder
+      feat_in: 80
+      n_layers: 32
+      d_model: 1024
+      # ... other encoder params can be left to default or added if needed
+
+    # The Preprocessor (Standard AudioToMel)
     preprocessor:
       _target_: nemo.collections.asr.modules.AudioToMelSpectrogramPreprocessor
       sample_rate: 16000
@@ -66,19 +73,10 @@ model:
       dither: 0.0
       pad_to: 16
 
-    # 3. Encoder Configuration (Required to define the FastConformer)
-    encoder:
-      _target_: nemo.collections.asr.modules.ConformerEncoder
-      feat_in: 80
-      n_layers: 32 # Canary-1b-flash has 32 encoder layers
-      d_model: 1024
-
+    # The Adapter (Use IdentityConnector with the correct input dimension)
     modality_adapter:
-      _target_: nemo.collections.speechlm2.parts.submodules.multimodal_projector.MultimodalProjector
-      input_size: 1024   # Output dimension of Canary-1B Encoder
-      output_size: 2048  # Hidden dimension of Qwen-1.7B LLM
-      projector_type: "linear" # Canary Qwen uses a simple linear projection
-      bias: true
+      _target_: nemo.collections.speechlm2.modules.perception.IdentityConnector
+      d_model: 1024 # Matches the Encoder output
 
   # Data Configuration
   data:
