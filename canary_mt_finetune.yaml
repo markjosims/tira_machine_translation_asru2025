@@ -1,0 +1,92 @@
+# @package _global_
+# generated with Gemini Fast on 5 Dec 2025
+name: "Canary_Qwen_Tira_MT_Finetune"
+
+# 1. Boilerplate Trainer Config
+trainer:
+  devices: 1
+  num_nodes: 1
+  accelerator: gpu
+  strategy: ddp
+  precision: bf16-mixed # Canary Qwen works best with bf16
+  max_epochs: 5
+  log_every_n_steps: 10
+  val_check_interval: 0.5 # Check validation halfway through epoch
+  gradient_clip_val: 1.0
+
+# 2. Experiment Manager
+exp_manager:
+  exp_dir: "${oc.env:NEMO_EXP_DIR, .}/canary_tira_mt_finetune"
+  name: ${name}
+  create_tensorboard_logger: True
+  checkpoint_callback_params:
+    save_top_k: 3
+    monitor: "val_loss"
+    mode: "min"
+    save_last: True
+
+# 3. Model Configuration (The Critical Part)
+model:
+  # This acts as the "base" configuration
+  # We load the pretrained SALM model
+  restore_from_path: null # Leave null, we load via init_from_pretrained_model
+  init_from_pretrained_model: "nvidia/canary-qwen-2.5b"
+
+  # PEFT / LoRA Configuration
+  # We freeze the massive LLM and only train small adapters
+  peft:
+    enabled: true
+    peft_scheme: "lora"
+    lora_tuning:
+      adapter_dim: 32
+      adapter_dropout: 0.05
+      target_modules: ['q_proj', 'v_proj', 'k_proj', 'o_proj'] # Standard Qwen targets
+
+  # Data Configuration
+  data:
+    # --- TRAIN DATA ---
+    train_ds:
+      batch_size: 4 # Keep small, SALMs are VRAM hungry
+      num_workers: 4
+      pin_memory: true
+      min_duration: 0.5
+      max_duration: 30.0
+
+      # This 'input_cfg' is what converts your simple manifest into
+      # the "Prompt + Audio -> Response" format the model needs.
+      input_cfg:
+        - type: "lhotse_as_conversation"
+          manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_train_manifest.jsonl"
+          audio_locator_tag: "<|audioplaceholder|>" # Specific tag for Canary Qwen
+
+          # HERE IS WHERE YOU DEFINE THE TASK
+          # For Translation, be explicit about the target language.
+          # Example: "Translate the following audio to English:"
+          context: "Translate the following audio into English:"
+
+          # If your manifest 'text' field contains the translation,
+          # this maps it to the model's expected 'answer'.
+          tags:
+            answer: "pred_text"
+
+    # --- VALIDATION DATA ---
+    validation_ds:
+      batch_size: 4
+      num_workers: 4
+      input_cfg:
+        - type: "lhotse_as_conversation"
+          manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_validation_manifest.jsonl"
+          audio_locator_tag: "<|audioplaceholder|>"
+          context: "Translate the following audio into English:"
+          tags:
+            answer: "pred_text"
+
+  # Optimizer config (Standard for LLM fine-tuning)
+  optim:
+    name: fused_adam
+    lr: 1e-4
+    weight_decay: 0.01
+    sched:
+      name: CosineAnnealing
+      min_lr: 1e-6
+      warmup_steps: 100
