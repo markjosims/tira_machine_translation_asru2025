@@ -30,6 +30,7 @@ exp_manager:
 model:
   # This acts as the "base" configuration
   # We load the pretrained SALM model
+  audio_locator_tag: "<|audioplaceholder|>"
   restore_from_path: null # Leave null, we load via init_from_pretrained_model
   init_from_pretrained_model: "nvidia/canary-qwen-2.5b"
 
@@ -58,7 +59,7 @@ model:
       input_cfg:
         - type: "lhotse_as_conversation"
           manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_train_manifest.jsonl"
-          audio_locator_tag: "<|audioplaceholder|>" # Specific tag for Canary Qwen
+          audio_locator_tag: ${model.audio_locator_tag}
 
           # HERE IS WHERE YOU DEFINE THE TASK
           # For Translation, be explicit about the target language.
@@ -77,7 +78,7 @@ model:
       input_cfg:
         - type: "lhotse_as_conversation"
           manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_validation_manifest.jsonl"
-          audio_locator_tag: "<|audioplaceholder|>"
+          audio_locator_tag: ${model.audio_locator_tag}
           context: "Translate the following audio into English:"
           tags:
             answer: "pred_text"
