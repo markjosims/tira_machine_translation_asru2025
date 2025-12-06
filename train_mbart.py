@@ -12,6 +12,8 @@ from jiwer import wer, cer
 import os
 bleu = load("sacrebleu")
 
+print_outputs = os.environ.get('PRINT_OUTPUTS', '0') == '1'
+
 def main():
     print("="*40)
     print("🚀 Tira Translation Model Training Setup")
@@ -51,8 +53,18 @@ def main():
         # Some simple post-processing
         decoded_preds = [pred.strip() for pred in decoded_preds]
         decoded_labels = [[label.strip()] for label in decoded_labels]
-        print(decoded_preds, decoded_labels)
+
         blue_score = bleu.compute(predictions=decoded_preds, references=decoded_labels)
+
+        decoded_labels = [label[0] for label in decoded_labels]
+        decoded_preds = [pred[0] for pred in decoded_preds]
+
+        if print_outputs:
+            print("\nSample Predictions vs References:")
+            for i in range(min(5, len(decoded_preds))):
+                print(f"Predicted: {decoded_preds[i]}")
+                print(f"Reference: {decoded_labels[i]}\n")
+
         wer_score = wer(decoded_labels, decoded_preds)
         cer_score = cer(decoded_labels, decoded_preds)
         blue_score = {
