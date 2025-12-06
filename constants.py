@@ -1,7 +1,13 @@
 import os
 
-DATASET_DIR = os.environ.get("DATASETS")
-MODEL_DIR = os.environ.get("MODELS")
+DATASET_DIR = os.environ.get("DATASETS", "data/")
+MODEL_DIR = os.environ.get("MODELS", "models/")
+
+if not os.path.exists(DATASET_DIR):
+    os.makedirs(DATASET_DIR)
+
+if not os.path.exists(MODEL_DIR):
+    os.makedirs(MODEL_DIR)
 
 MODEL_CHECKPOINT = "facebook/mbart-large-50-many-to-many-mmt"
 OUTPUT_DIR = os.path.join(MODEL_DIR, "tira_mbart_finetuned")
