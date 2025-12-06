@@ -78,45 +78,6 @@ model:
       _target_: nemo.collections.speechlm2.modules.perception.IdentityConnector
       d_model: 1024 # Matches the Encoder output
 
-  # Data Configuration
-  data:
-    # --- TRAIN DATA ---
-    train_ds:
-      batch_size: 4 # Keep small, SALMs are VRAM hungry
-      num_workers: 4
-      pin_memory: true
-      min_duration: 0.5
-      max_duration: 30.0
-
-      # This 'input_cfg' is what converts your simple manifest into
-      # the "Prompt + Audio -> Response" format the model needs.
-      input_cfg:
-        - type: "lhotse_as_conversation"
-          manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_train_manifest.jsonl"
-          audio_locator_tag: ${model.audio_locator_tag}
-
-          # HERE IS WHERE YOU DEFINE THE TASK
-          # For Translation, be explicit about the target language.
-          # Example: "Translate the following audio to English:"
-          context: "Translate the following audio into English:"
-
-          # If your manifest 'text' field contains the translation,
-          # this maps it to the model's expected 'answer'.
-          tags:
-            answer: "pred_text"
-
-    # --- VALIDATION DATA ---
-    validation_ds:
-      batch_size: 4
-      num_workers: 4
-      input_cfg:
-        - type: "lhotse_as_conversation"
-          manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_validation_manifest.jsonl"
-          audio_locator_tag: ${model.audio_locator_tag}
-          context: "Translate the following audio into English:"
-          tags:
-            answer: "pred_text"
-
   # Optimizer config (Standard for LLM fine-tuning)
   optim:
     name: fused_adam
@@ -126,3 +87,42 @@ model:
       name: CosineAnnealing
       min_lr: 1e-6
       warmup_steps: 100
+
+# Data Configuration
+data:
+  # --- TRAIN DATA ---
+  train_ds:
+    batch_size: 4 # Keep small, SALMs are VRAM hungry
+    num_workers: 4
+    pin_memory: true
+    min_duration: 0.5
+    max_duration: 30.0
+
+    # This 'input_cfg' is what converts your simple manifest into
+    # the "Prompt + Audio -> Response" format the model needs.
+    input_cfg:
+      - type: "lhotse_as_conversation"
+        manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_train_manifest.jsonl"
+        audio_locator_tag: ${model.audio_locator_tag}
+
+        # HERE IS WHERE YOU DEFINE THE TASK
+        # For Translation, be explicit about the target language.
+        # Example: "Translate the following audio to English:"
+        context: "Translate the following audio into English:"
+
+        # If your manifest 'text' field contains the translation,
+        # this maps it to the model's expected 'answer'.
+        tags:
+          answer: "pred_text"
+
+  # --- VALIDATION DATA ---
+  validation_ds:
+    batch_size: 4
+    num_workers: 4
+    input_cfg:
+      - type: "lhotse_as_conversation"
+        manifest_filepath: "/mnt/LocalStorage/datasets/mjsimmons/tira_asr_translated/nemo/nemo_validation_manifest.jsonl"
+        audio_locator_tag: ${model.audio_locator_tag}
+        context: "Translate the following audio into English:"
+        tags:
+          answer: "pred_text"
