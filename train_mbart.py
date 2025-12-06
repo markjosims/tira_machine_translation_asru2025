@@ -6,13 +6,29 @@ from transformers import (
 from datasets import load_from_disk
 from evaluate import load
 from constants import (
-    MODEL_CHECKPOINT, OUTPUT_DIR, TRAIN_DATA_PATH, VAL_DATA_PATH
+    MODEL_CHECKPOINT, OUTPUT_DIR, TRAIN_DATA_PATH, VAL_DATA_PATH,
+    ALLOPHANT_TRAIN_PATH, ALLOPHANT_VAL_PATH,
 )
 from jiwer import wer, cer
 import os
+from argparse import ArgumentParser
 bleu = load("sacrebleu")
 
-print_outputs = os.environ.get('PRINT_OUTPUTS', '0') == '1'
+
+def parse_args():
+    parser = ArgumentParser(description="Train mBART Translation Model on Tira Dataset")
+    parser.add_argument(
+        "--print-outputs", '-p',
+        action="store_true",
+        help="Print sample model outputs during evaluation",
+    )
+    parser.add_argument(
+        '--dataset', '-d',
+        type=str,
+        choices=['elan', 'allophant'],
+        default='elan',
+    )
+    return parser.parse_args()
 
 def main():
     print("="*40)
@@ -23,6 +39,8 @@ def main():
     print(f"Running on: {device.upper()}")
     # Enable Mixed Precision (fp16) only if CUDA is available
     fp16_enabled = device == "cuda"
+
+    args = parse_args()
     
     if fp16_enabled:
         print("FP16 Mixed Precision: ENABLED (Crucial for VRAM savings)")
@@ -31,9 +49,16 @@ def main():
     if not os.path.exists(TRAIN_DATA_PATH):
         print(f"❌ Error: Data folders not found. Run prepare_mt_data.py first!")
         return
-        
-    train_dataset = load_from_disk(TRAIN_DATA_PATH)
-    val_dataset = load_from_disk(VAL_DATA_PATH)
+
+    if args.dataset == "elan":
+        train_dataset = load_from_disk(TRAIN_DATA_PATH)
+        val_dataset = load_from_disk(VAL_DATA_PATH)
+    elif args.dataset == "allophant":
+        train_dataset = load_from_disk(ALLOPHANT_TRAIN_PATH)
+        val_dataset = load_from_disk(ALLOPHANT_VAL_PATH)
+    else:
+        print(f"❌ Error: Unknown dataset choice '{args.dataset}'")
+        return
 
     print(f"\n⬇️  Loading base mBART model: {MODEL_CHECKPOINT}...")
     model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_CHECKPOINT)
@@ -58,7 +83,7 @@ def main():
 
         decoded_labels = [label[0] for label in decoded_labels]
 
-        if print_outputs:
+        if args.print_outputs:
             print("\nSample Predictions vs References:")
             for i in range(min(5, len(decoded_preds))):
                 print(f"Predicted: {decoded_preds[i]}")
