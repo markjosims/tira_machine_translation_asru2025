@@ -38,7 +38,7 @@ def main():
 
     print("\n⚙️  Configuring training parameters (Low VRAM Mode)...")
 
-    batch_size = 64
+    batch_size = 16
     gradient_accumulation = 1
 
     training_args = Seq2SeqTrainingArguments(
