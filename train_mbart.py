@@ -8,7 +8,9 @@ from evaluate import load
 from constants import (
     MODEL_CHECKPOINT, OUTPUT_DIR, TRAIN_DATA_PATH, VAL_DATA_PATH
 )
+from jiwer import wer, cer
 import os
+bleu = load("sacrebleu")
 
 def main():
     print("="*40)
@@ -39,7 +41,6 @@ def main():
 
     print("\nDefining metrics...")
     def compute_metrics(eval_preds):
-        metric = load("sacrebleu")
         preds, labels = eval_preds
         if isinstance(preds, tuple):
             preds = preds[0]
@@ -50,9 +51,16 @@ def main():
         # Some simple post-processing
         decoded_preds = [pred.strip() for pred in decoded_preds]
         decoded_labels = [[label.strip()] for label in decoded_labels]
-        result = metric.compute(predictions=decoded_preds, references=decoded_labels)
-        result = {"bleu": result["score"]}
-        return result
+        print(decoded_preds, decoded_labels)
+        blue_score = bleu.compute(predictions=decoded_preds, references=decoded_labels)
+        wer_score = wer(decoded_labels, decoded_preds)
+        cer_score = cer(decoded_labels, decoded_preds)
+        blue_score = {
+            "bleu": blue_score["score"],
+            "wer": wer_score,
+            "cer": cer_score,
+        }
+        return blue_score
 
     print("\n⚙️  Configuring training parameters...")
 
