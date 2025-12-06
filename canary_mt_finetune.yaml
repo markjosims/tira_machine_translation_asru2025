@@ -35,6 +35,7 @@ model:
   # Specify the components used to build the final model
   pretrained_llm: "Qwen/Qwen3-1.7B"      # The base LLM component
   pretrained_asr: "nvidia/canary-1b-flash" # The base ASR/Encoder component
+  pretrained_weights: True
 
   # The key you were using to load the final checkpoint
   init_from_pretrained_model: "nvidia/canary-qwen-2.5b"
