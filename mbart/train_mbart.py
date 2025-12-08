@@ -6,8 +6,8 @@ from transformers import (
 from datasets import load_from_disk
 from evaluate import load
 from constants import (
-    MODEL_CHECKPOINT, OUTPUT_DIR, TRAIN_DATA_PATH, VAL_DATA_PATH,
-    ALLOPHANT_TRAIN_PATH, ALLOPHANT_VAL_PATH,
+    MODEL_CHECKPOINT, TRAIN_DATA_PATH, VAL_DATA_PATH,
+    ALLOPHANT_TRAIN_PATH, ALLOPHANT_VAL_PATH, MODEL_DIR
 )
 from jiwer import wer, cer
 import os
@@ -25,8 +25,13 @@ def parse_args():
     parser.add_argument(
         '--dataset', '-d',
         type=str,
-        choices=['elan', 'allophant'],
+        choices=['elan', 'allophant', 'allophant_condensed'],
         default='elan',
+    )
+    parser.add_argument(
+        '--condense_allophant',
+        action='store_true',
+        help='Whether to condense phoneme strings in allophant dataset by removing spaces',
     )
     return parser.parse_args()
 
@@ -41,6 +46,10 @@ def main():
     fp16_enabled = device == "cuda"
 
     args = parse_args()
+
+    task_name = f'mbart_ft_{args.dataset}'
+    os.environ['TASK_NAME'] = task_name
+    os.environ['WANDB_PROJECT'] = 'tira_mt_asru2025'
     
     if fp16_enabled:
         print("FP16 Mixed Precision: ENABLED (Crucial for VRAM savings)")
@@ -56,12 +65,16 @@ def main():
     elif args.dataset == "allophant":
         train_dataset = load_from_disk(ALLOPHANT_TRAIN_PATH)
         val_dataset = load_from_disk(ALLOPHANT_VAL_PATH)
+    elif args.dataset == "allophant_condensed":
+        train_dataset = load_from_disk(ALLOPHANT_TRAIN_PATH+"_condensed_inputs")
+        val_dataset = load_from_disk(ALLOPHANT_VAL_PATH+"_condensed_inputs")
     else:
         print(f"❌ Error: Unknown dataset choice '{args.dataset}'")
         return
 
     print(f"\n⬇️  Loading base mBART model: {MODEL_CHECKPOINT}...")
     model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_CHECKPOINT)
+
     # Load tokenizer to save with the model later
     tokenizer = AutoTokenizer.from_pretrained(MODEL_CHECKPOINT)
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
@@ -101,26 +114,30 @@ def main():
     print("\n⚙️  Configuring training parameters...")
 
     batch_size = 16
-    gradient_accumulation = 1
+    gradient_accumulation = 2
 
+    output_dir = os.path.join(MODEL_DIR, task_name)
+    
     training_args = Seq2SeqTrainingArguments(
-        output_dir=OUTPUT_DIR,
+        output_dir=output_dir,
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
         gradient_accumulation_steps=gradient_accumulation,
-        num_train_epochs=10,
+        num_train_epochs=20,
         weight_decay=0.01,
         save_total_limit=2,
         predict_with_generate=True,
         fp16=fp16_enabled,
         logging_steps=50,
-        report_to="none",
+        report_to="wandb",
         load_best_model_at_end=True,
         greater_is_better=True,
         metric_for_best_model="bleu",
+        run_name=task_name,
+        resume_from_checkpoint=True,
         # dataloader_num_workers=num_workers
     )
 
@@ -138,9 +155,9 @@ def main():
     print(f"Batch Size: {batch_size} | Accumulation: {gradient_accumulation}")
     trainer.train()
 
-    print(f"\n✅ Training finished! Saving final model to: /{OUTPUT_DIR}")
-    trainer.save_model(OUTPUT_DIR)
-    tokenizer.save_pretrained(OUTPUT_DIR)
+    print(f"\n✅ Training finished! Saving final model to: /{output_dir}")
+    trainer.save_model(output_dir)
+    tokenizer.save_pretrained(output_dir)
 
 if __name__ == "__main__":
     main()

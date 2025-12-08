@@ -1,0 +1,80 @@
+# @package _global_
+name: "Canary_1B_Flash_Tira_MT"
+
+trainer:
+  devices: 1
+  num_nodes: 1
+  accelerator: gpu
+  precision: bf16-mixed
+  max_epochs: 30 # You can train longer since it's faster
+  max_steps: -1
+  limit_train_batches: -1
+  log_every_n_steps: 100
+  val_check_interval: -1
+  accumulate_grad_batches: 2 # You might not even need accumulation anymore!
+  logger: false
+
+exp_manager:
+  exp_dir: "nemo_experiments"
+  # name: ${name}
+  create_tensorboard_logger: false
+  create_checkpoint_callback: false
+  create_wandb_logger: true
+  wandb_logger_kwargs:
+    name: canary_1b_ft
+    project: tira_mt_asru2025
+
+model:
+  # Optimization for single GPU
+  # We can freeze the encoder to save massive memory and only train the decoder
+  # or unfreeze everything if it fits (900M usually fits in 10GB-16GB VRAM)
+  encoder:
+    bleu_tokenizer: "13a" 
+
+  # # Optimization Params
+  # optim:
+  #   name: adamw
+  #   lr: 1e-4 # Standard fine-tuning LR
+  #   weight_decay: 0.001
+  #   sched:
+  #     name: CosineAnnealing
+  #     min_lr: 1e-6
+  #     warmup_steps: 500
+  #     T_max: -1
+  # Optimizer config (Standard for LLM fine-tuning)
+  optimizer:
+    _target_: torch.optim.AdamW # bitsandbytes.optim.AdamW8bit for less memory footprint
+    lr: 1e-4
+    weight_decay: 0.01
+    betas: [0.9, 0.95]
+
+  scheduler:
+    _target_: torch.optim.lr_scheduler.CosineAnnealingLR
+    # Note: 'optimizer' arg is passed automatically in python, don't define it here
+    T_max: "${trainer.max_steps}"
+    eta_min: 1e-6
+
+data:
+  # Data Configuration
+  train_ds:
+    manifest_filepath: "${oc.env:DATASETS, .}/tira_asr_translated/nemo/nemo_train_manifest.jsonl"
+    batch_size: 16 # 900M params allows much larger batches
+    num_workers: 4
+    use_lhotse: true
+    pin_memory: true
+    max_duration: 20.0
+    shuffle: false
+    
+    # Lhotse-specific mapping for Canary 1B
+    # We map your manifest keys to what Lhotse expects
+    text_field: "text" 
+    lang_field: "target_lang"
+
+  validation_ds:
+    manifest_filepath: "${oc.env:DATASETS, .}/tira_asr_translated/nemo/nemo_validation_manifest.jsonl"
+    batch_size: 32
+    shuffle: false
+    use_lhotse: true
+    text_field: "text" 
+    task: "ast"
+    lang_field: "target_lang"

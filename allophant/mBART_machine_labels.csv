@@ -1,0 +1,858 @@
+,src,allophant_src,ref,mBART_machine_label_pred
+0,ìjɔ̀ kə̀cə̀lò,iakeʃelo,the shepherd is good,Iake is good
+1,kə̀cə̀lò,kɛcɛlo,he (the shepherd) is good,put on the dress!
+2,àprí jə̀cə̀lò,aprejecelo,the boy is good,The boy is nice
+3,ðà áprí və́lɛ̀ðɛ̀,ðəaprevleðe,boy pulled it (sheep) (away from),boy pulled it (sheep) away
+4,ðə̀ áprí və́lɛ̀ðɛ̀,ðəaprivlɛð,boy pulled it (sheep) (away from),boy pulled it (sheep) towards
+5,ðà áprí və́lɛ̀ð ɛ̀,ðəapreðlɛðe,boy pulled it (sheep) (away from),boy pulled it (sheep) away
+6,án áprí jə́ɾàu,ɛnapreɪrao,which boy,I was scared of the boy
+7,èddèré kìclò,id̪erederkəcilo,"girl, the girl is good",my uncle is good
+8,kàtɛ́və́lɛ̂ðɛ̀ kàtɛ́və́lɛ̂ðɛ̀ ùnɛ́ɾɛ̀,katevleðkatevleðeunare,S/he pulled us two away yesterday,You and I pulled all of us away yesterday.
+9,kújɛ̀l kújɛ̀l,kujenkʊien,in the picture,Kuku didn't eat it
+10,âŋt̪átɛ̀ âŋt̪átɛ̀,aŋt̪at̪eaŋt̪ate,You saw you and me yesterday in the picture.,tell me something! (far)
+11,kàtɛ́və́lɛ̂ðɛ̌r kàtɛ́və́lɛ̂ðɛ̌r ùnɛ́ɾɛ̀,katevleðɛrkatevleðɛrʊnere,S/he pulled us all.,S/he pulled all of us away yesterday
+12,án kúkù,aŋkoko,it's Kuku,It's you who did it.
+13,ìlɛ́ð kìcə̀lò,ɪlɛfkɛʃlo,plough is good,The feather is good.
+14,lə̀bó lìcə̀lò,bolekelɔ,the ball is good,The pain is good.
+15,ɛ̀ré kìcə̀lò,ɛrekɛkilo,the bowl is good,The leather is good.
+16,kdɔ̀ɽðɔ̀t̪ɔ̀,kd̪arlat̪o,he fixed ,he is about to close the door
+17,ɔ̀ɾá kìcə̀lò,orakt̪i,child is good,[Wait here]
+18,ɔ̀ɾá kìcò,obɾakɪco,child is bad,The baby is good.
+19,ìró ìjó jìɽà,iroɪjoieɾa,Your (sg) cows are big,the boy grew up
+20,ìró íjɛ́n jìɽà,iroien,Their cows are big,I shaved myself
+21,ɔ̀ðə̀ŋìnà,ɔŋna,hippo,rest
+22,ɔ̀ðɛ̀ŋìnà,oðeŋena,hippo,hippo
+23,ɔ̀ðɛ̀ŋìnà kɛ̀,ɔðəŋɛnakɪd,this hippo,the hare will become fat
+24,àprí jàɾɔ́ kìcə̀lò,aprejarokecelo,the boy said he (not the boy) is nice,the boy said that he is nice
+25,kúkù kàɾɔ́ áprǐ jìcə̀lò,kʊkʊkaɾoaprejeʃelo,Kuku said that the boy is good,Kuku will make the boy return
+26,ðàlàgàràj,ðəlaɡɾraj,hyena,That hyena is big.
+27,kə̌nà àpríɲá jàmə̀ɲí lɛ̂ŋgɛ̀n,kɛaapɾɛɲiamelɛŋɡen,Every boy is loved by his mother,When did the boy chase the dog?
+28,àkáɽə̀ŋàt̪à,akalmat̪a,you are about to fetch ,Tell him to wait now (far)
+29,rɔ́mɔ̀ lìclò,rɔmanacilo,The ram is good,rub the skin!
+30,ɲɛ̌n ɲɛ́ɽcân,ɲɛɲeca,two dogs,the legs of a table
+31,ɲɛ̌n ɲɛ́ɽcân,ɲenɲelicam,two dogs,the dogs will bite each other (far)
+32,ŋʊ̀clò,moʃlo,(The dog) is good.,The mud is good.
+33,dòɾǐ lìclò,doreliʃlɔ,The mountain is good.,The wood is good.
+34,dòɾì lìclò,d̪oralikimo,The mountain is good.,The gun is good.
+35,àjɛ́n jɛ̀clò,aeniɛʃilo,"The country is good (country, hill, mountain)",The houses are good.
+36,ɲɛ̌n ɲìclò,ɲɛnliclo,"The countries are good (country, hill, mountain)",The axes are good.
+37,ɲɛ̌n ɲɛ̀clò,nɛɲecro,"The countries are good (country, hill, mountain)",The mushrooms (sp.) are good.
+38,lɔ́ɾɔ́ lìcɽò,naromekno,The back (body part) is good.,The rock is good
+39,lárǒ lìcɽò,naromecro,the rock is good,The rocks are good
+40,láró lìcɽò,laromeklo,the rock is good,The hens are good.
+41,lárʊ̂ lìcɽò,klaroutʃəl,the rock is good,The bowl is good.
+42,ɔ̀ɽɟɛ̌n kìclò,bɔrɡɛnkit̪lo,The gourd is good.,The gourd is good.
+43,r̀ló rə̀clò,rlorɔcono,the goat is good,The rock is good.
+44,r̀lò rə̀clò,ladoluʃilɔ,the goat is good,The markets are good.
+45,jèɽò jìclò,jerojeʃeno,the goats are good,his/her brother is good
+46,èɽò ìclò,eloetɛ,the goats are good,come in! (towards)
+47,èɽǒ ìclò,jaɛlopikno,the goats are good,I put the stick on the table
+48,kícə̀lò,kiʃilo,it is good,The bowl is good.
+49,ǹd̪òbà kícə̀lò,darakicinɔ,the morning is good,This curse is good.
+50,kúkù kúkúŋ,koʔoʔukɔm,Kuku   Kuku-ACC,Kuku will make Kaka come out
+51,íŋgâìt̪ɔ̌ dɛ̂,iŋɡat̪ode,"No, I am not coming",I will not drink water
+52,íŋgâìt̪ɔ̌,eŋɡat̪o,I am coming,I will cook (far)
+53,ímìdǎn kìcə̀lò,emiðaŋkeʃelo,Himidan is good,his/her mother is good
+54,mùðù kèclò,moðokeʃəlons,The leopard is good,The leopard is good.
+55,mùðù kɔ̀là,muðubɔna,leopard is tall,The fox is tall
+56,ŋʊ́t̪òlíŋá,mət̪olena,of the lion,the lion was watched
+57,ùɽí kɔ̀là,ʊlikola,The trees are tall.,The flower is tall.
+58,ùɽì kɔ̀là,ʊliɡola,The trees are tall.,The tree is tall.
+59,t̪òlí t̪ɔ̀là,ʔolet̪ɔla,The lion is tall,The lion is tall.
+60,t̪ùlí t̪òrlà,onet̪rna,lions are tall,grandfather said he saw it
+61,t̪ùlí t̪òlà,t̪ʊlet̪ola,lion is tall,The lion is tall.
+62,ǎn múðù kâj,ammoðɔka,that is a leopard,the leg is long
+63,án múðù kâj,anmoðoke,that is a leopard,This is a leopard
+64,àn íjò kɛ̂,amioke,this is a shepherd,Eat my food!
+65,íjó jɛ̀ɽcàn,oiliʃa,two guns,The bowl is good.
+66,íjó jɛ̀ɽicàn,ʔɪoioɾeʃa,two guns,Cow is good
+67,ed̪ɛɾɛ́ kìcə̀lò,ɛd̪erajakiʃilo,the girl is good,the girl is good
+68,èd̪ɛ̀rɛ́ kàŋíŋì,ed̪erakamiŋi,The girl saw me,my mother is good
+69,èdɛ̀rɛ́ kàŋátɛ̀,iðrkaŋate,the girl saw us two,I sent the hare yesterday
+70,àń bácʊ́m kɛ̀,anbakɔmkɛ,This is a fox,It's the boy who did it.
+71,nàl bàcʊ̂m,nalbako,Here are foxes,It's you who will eat it.
+72,dìjó rìcə̀lò,d̪iaɾrəsəlo,The cow is good,The hearts are good.
+73,ùmè kìcə̀lò,omekicilo,The fish is good,The meat is good.
+74,wɛ̌n kìcə̀lò,wɛnpikino,The wife is good,his sticks
+75,wɛ̌n ìgùn,wenɡeɡun,his wife,his wife
+76,làrɔ̀ lìclò,marolekelo,The siblings are good,the dresses are good
+77,àrù kìcə̀lò,arkescono,The sibling is good,is good?
+78,ɔ̌j kítàɽàn,ojkət̪alan,The bee is small,Kuku will keep quiet
+79,ŋárðó lúó,marðlu,Tear the shirt!,The hare is hiding
+80,lə̀p ɛ́ r lìcə̀lò,lapɛrleʃelo,The tail is good,The trough is good
+81,lə̀pɛ́r lìcə̀lò,lperðeʔelo,The tail is good,To beat the wood is good
+82,ídɜ́ɽí kìcə̀ló,idɛɾikeʃəlo,Herbs are good,their uncle is good
+83,èlě kə̀cə̀lò,ɛleket̪lo,the king is good,their uncles are good
+84,ɛ̀lɛ̀ jɛ̀cə̀lò,ɛlaieʃeme,the mushroom is good,The feathers are good.
+85,ɛ̀lɛ̀ jɛ̀cə̀lǒ,elaeclo,mushroom is good,The food is good.
+86,ɛ̀là jɛ̀cə̀lò,ɛlaieʃelo,mushroom is good,The monkeys are good.
+87,ìlɛ́ð kìcə̀lò,ilɛkeʃno,the hoe is good,the rabbit is good
+88,ɜ́ɾʊ́ kìcə̀lò,ɛrokiʃelo,the bird's nest/leather bowl is good,The hair is good.
+89,ɜ̀nì kìcə̀lò,ɛnikəcilo,ear/leaf is good,my brothers are good
+90,òló kìcə̀lò,ɔlokikelo,the sieve is good,The mouth is nice
+91,t̪òlé t̪ə̀rǎ ŋij̀ɛ́ ŋɛ́nɛ̀,t̪olet̪raŋɪje,Why did the lion eat the dog?,the lion I saw
+92,t̪òlé t̪ìcəlò,t̪olet̪iʔolo,The lion is good,The lion was lost.
+93,tʊ̀lí t̪ìcəlò,t̪olit̪iʃilo,The lions are good,The lion is good.
+94,nɛ̀nì nìcìlò,nenimiʃelo,ears are good,The boys are good.
+95,ŋ̀wt̪út̪ú ŋìcìlò,mʊtut̪ʊneʃelo,roofs are good,The shirt is good.
+96,ŋwɔ́bɛ́ɽɛ́ ŋìcìlò,mobilenicro,flowers are good,The skirts are good.
+97,kukǔ án íjɔ̀,kukoanio,Kuku is a shepherd,Kuku is about to eat food
+98,àníŋí íjɔ̌,ɛnɪŋiio,I am a shepherd,he was a shepherd
+99,ìjɔ̀ gáj àníŋì,iod̪ɛnip,that shepherd is me,I brought the drum
+100,ìjɔ̀ kə̀vé ánìŋǐ,iiɔkveaneŋi,the shepherd was me,I cooked soup
+101,ìjɔ̀ kə̀vé ánìŋì,iokveai,the shepherd was me,I cooked soup
+102,évé ànìŋì ìjɔ̀,evɛtaiio,I was a shepherd,my father
+103,évé ànìŋí íjɔ̀,ɛveaiio,I was a shepherd,I was a shepherd
+104,ìrí ɛ̀gɔ́,ireeɡo,your name,I cooked soup
+105,ɔ́rn ɔ́ɟɔ̀,arnoɟo,You're called what?,who will see it?
+106,ǎn kúkùŋà,ankukuŋa,(It was) Kuku and entourage,only Kuku saw it
+107,àprí jɛ̀ðə̀ŋná nó t̪òlé t̪àrlɛ̂ɲì ŋínɛ̀,apɾeðɡnanot̪olet̪alɲiŋɡine,The boy remembered the lion chased the dog (towards),The boy remembered how the lion chased the dog (away)
+108,àprí jɛ̀ðə̀ŋná nó àn áǒ kà t̪ólé ŕlɛ̂ɲì ŋínɛ̀,aprid̪eŋnanoanaokat̪olɪleɲiŋin,The boy remembered how the lion chased the dog (away),the boy who chased the dog (towards)
+109,kà t̪ólé ŕlɛ̂ɲì ŋínɛ̀,kat̪oleleɲiŋɪne,(The boy remembered how) the lion chased the dog (away),chased the dog (towards)
+110,àn áǒ kə́ðə̀ŋnɔ́ áprí ánó ká t̪òlé ŕlɛ̀ɲì ŋínɛ̀,naokaðŋnoapranokat̪olilejiŋine,? How did the boy remember the lion chased the dog?,"even though Kuku saw the lion, he still drank water"
+111,àn áǒ kə́ðə̀ŋnɔ́l áprí ánó ká t̪òlé ŕlɛ̀ɲì ŋínɛ̀,nakaðanalapɾanokat̪leleɲiŋene,? How did the boy remember the lion chased the dog?,the boy remembered how the lion chased the dog (away)
+112,àn áǒ kə́ðə̀ŋnɔ́l áprí ánó ká t̪ólé ŕlɛ̂ɲì ŋínɛ̀,anaokaɾðəŋnalapɾanokat̪oleleɲɪŋine,? How did the boy remember the lion chased the dog?,How did the boy remember the lion chased the dog?
+113,ká t̪ólé ŕlɛ̂ɲì ŋínɛ̀,kat̪oɾrleɲŋine,(How did the boy remember) the lion chased the dog?,chased the dog (towards)
+114,àn ndɔ́n kə́ðə̀ŋnɔ́l áprí á nó kágɛ́ t̪ólé ŕlɛ̂ɲì ŋínɛ̀,ad̪aŋkaðaŋnolaprianokaɡet̪oleleɲiŋine,When did the boy remember the lion chased the dog (away)?,It's the male goat that the dog chased (away)
+115,àn ndɔ́n kə́ðə̀ŋnɔ́l áprí á nó kágɛ́ t̪òlé ŕlɛ̂ɲì ŋínɛ̀,ad̪oŋkad̪nalapɾɪanokaɡet̪olerleɲeŋine,When did the boy remember the lion chased the dog (away)?,it's with its teeth that grandpa said the lion chased the dog (away)
+116,àprí jábòt̪ɛ̀ ùɽì,aprijabot̪ɛoli,The boy climbed the tree (speaker is present).,the boy said that he saw it
+117,àprí jábót̪à ùɽì,apriiavot̪aʊli,The boy will climb up the tree (speaker is present),the boy is drinking water
+118,àprí jâùrú úɽì,aprijaoruoli,"The boy will climb down the tree (speaker is far away while the action is happening, or speaker is up in the tree).",the boy said that he saw it
+119,àprí jùrú uɽi,apɾiijrooli,The boy climbed down the tree (speaker can be near or far).,The boy was a shepherd last year
+120,àprí jùrú úɽì,aprijʊroulɪ,The boy climbed down the tree (speaker can be near or far).,The boy said that he saw it
+121,àprí jábótɔ̀ jàbòt̪ɔ́ úɽì,aprijabot̪ojavot̪ɔolɪ,"The boy climbed up the tree (speaker is not present, or speaker is above boy).",The boy was looking at the lion
+122,ðàmɔ̀cò ðǎpàt̪ɛ̀ àpríɲá èðè,d̪omocoðapat̪apɾɛɲaɛðe,The man took meat from the boy,The man will bring the basket (away) when I arrive
+123,ðàmɔ̀cò ðápàt̪ɛ̀ àpríɲá èðè,lomɔcod̪apat̪eapɾɛɲaɛðə,The man took meat from the boy,lom (lom of cow) was given to the boy by the boy
+124,ðàmɔ̀cò ðǎpàt̪ɛ̀ àpríɲá èðè ùnɛ̀ɾɛ̀,d̪omoceðapat̪eapɾeɲaeðeʊnere,The man took meat from the boy yesterday,the fox said that the boy ate the meat yesterday
+125,kʊ̀bùlìjí ðɔ́màcà,kʊbʊɾiðomaca,He wrestled the man,Kuku drank water
+126,kə̀bùlìjíŋì,kboliɛŋɪ,I wrestled him,he wrestled him
+127,kə̀bùlìjîl,kbuliil,They wrestled him,The bowl is good.
+128,ùrnɔ̀ kàrt̪îŋǐ,urnokart̪iŋɪ,Grandfather told me,grandfather said he saw it
+129,ùrnɔ̀ kàrt̪îŋì,onakaɾt̪eni,Grandfather told me,‘Wait here now!’
+130,t̪òlé t̪ìjɔ́ éðè,t̪olet̪ɪɔɛð,The lion ate meat,The lion ate it (the bone)
+131,t̪òlé t̪ìjɔ́ ɛ́ðɛ̀,t̪olet̪ɪoeðe,The lion ate meat,the lion ate it (the meat) yesterday
+132,àń áò kárɔ́gɛ́ ŋwɔ̀rá kágɛ́ àprí t̪ə́và lɔ̀mɔ̀,ənaokaroɡemorakaɡeaprit̪va,How did the children say the boy cut the bread?,who did grandfather say beat the drum?
+133,ur̀nɔ̀ kávə́lɛ̂ðà kávə́rlɛ̂ðǎ ðàŋàlǎ kínǎ lómàn,ʊrnɔkablɛd̪əkavrlɛðad̪əalaknaloman,grandfather keeps pulling the sheep every day,grandfather pulls the sheep every day
+134,ɽìt̪í sìcə̀lò,lit̪iseʃno,The palm tree is good,the dress is good
+135,jár jìcə̀lò,jariɛʃelo,The ropes are good,The gourds are good.
+136,àt̪uɟáj jìcə̀lò,atʊɟaijecilo,The bed strap is good,This bed strap is good.
+137,ʊ̀nì kìcə̀lò,onekecilo,The basket is good,How are you?
+138,ɽìtí t̪icilʊ ŋamɽaɾɛ,lit̪it̪ekolomlare,Palm tree is really good,They bought/sold a cow yesterday
+139,àlbríð jìcə̀lò,albrɛðekɾo,The mat is good,their brother is good
+140,kɛ̀kə̀lcí,kekənce,Parts of: He spread the mat yesterday,Kuku was a shepherd
+141,kàðə́kə̀lcà,kad̪klcakaðkkɪcakkaðeklsa,Parts of: He is spreading the mat now,Kuku will introduce Kuku to me (far)
+142,jòú jáŋkə́lcà,jojaŋklca,You are spreading it (mat),My brother is tall
+143,ɔ̀ráj kàðə́kə̂lcǎ álbríðɔ́ t̪ə́wə̀nì,ɔrkaðaklcaabrɪðot̪əoni,My brother is spreading the mat now,he is looking at your brother now
+144,ɛ̀vɛ̀ jìcə̀lò,evɛitil,vegetables are good,Return the book! (towards)
+145,lídí lìcə̀lò,vid̪ɪleʃelo,The pot is good,the bowl is good
+146,ltʊ̌ lìcə̀lò,toleʃelo,The fist is good,The shirt is good.
+147,kúkù kə̀ŋací kákà lɛ̀dè,kukoŋaʃekakaledɪ,Kuku was given the coconut by Kaka,Kuku will show me the coconut
+148,kúkùŋ àpríɲá,kwkonapɾeɲa,Parts of: The grandfather gave Kuku to the boy,Kuku will beat the drum
+149,káŋcî rŋɔ̀,kancirŋo,He showed me the snake,he gave me the snake
+150,káŋcîí ùrnɔ̀,kɛŋciʊrno,He showed me the snake (or grandfather?),he forgot something (far)
+151,kàŋcî r̀ŋɔ̀,kaŋcirn,He showed me the snake,Scratch the skin!
+152,kə̀ŋàcîŋì,naceŋi,Parts of: Kuku gave me the snake,The waters are nice
+153,kúkù kə̀ŋàcî,kukukiŋaci,Parts of: Kuku gave me the snake,Kuku gave me the snake
+154,kúkù kə̀ŋàcí ŕŋɔ̀ kákàŋ,kukʊkŋakiroməkaka,Kuku gave the snake to Kaka,Kuku is about to show me to you
+155,kúkù kə̀ŋàcîí,kokoknaci,Parts of: Kuku gave me the snake,Kuku introduced me to him
+156,kúkù kə̀ŋàcîŋǐ,kukuŋaciŋi,Parts of: Kuku gave me the snake,Kuku gave me the snake
+157,kə̀ŋàcîŋǐ,kɪŋatiŋi,Parts of: Kuku gave me the snake,I am about to show him to you
+158,kə̀ŋàcîŋí,knaciŋɪ,Parts of: Kuku gave me the snake,he was a shepherd
+159,kə̀ŋàcáŋá,nacananu,Parts of: You gave Kuku the snake,the water is in the well
+160,kúkù kə̀ŋàcâŋǎ ŕŋɔ̀ kúkù kə̀ŋàcáŋá ŕŋɔ̀,ɡcŋcaŋŋo,(comparing tones of [âŋà] and [áŋá]),Parts of: Kuku gave me the snake
+161,àn ìɾí kɛ̂ɛ́,anɛrikɛ,This is a trough.,This is a trough
+162,ìɾí kìcə̀lò,ɛrikicilom,The trough is good. ,his/her brothers are good
+163,àdám jɛ́ jìcə̀lò,ad̪amjejeco,this book is good,I am about to taste the soup
+164,lɔ̀mɔ̀ lìcìlɔ̀,nɔmoleʃelo,the bread is good,The kings are good.
+165,jɜ̀ŋci jàŋcí jàŋcí,jɛŋcijaŋkijaŋki,Parts of: I showed the dog the boy,I showed him the snake
+166,jɜ̀ŋci jɜ̀ŋci jàŋcí jàŋcí,jɛtijɛcijcijaneci,Parts of: I showed the dog to the boy,My father was a shepherd
+167,kúkù kàŋcíŋì ŋâŋ,kukukaŋtiŋina,Kuku showed me to you,Kuku showed me the snake
+168,kúkù kàŋcíŋì ŋûŋ,kokukanciŋɪmo,Kuku showed me to him/her/it,Kuku showed me a snake
+169,kàŋcíŋì kúkù,kanciŋikuku,Kuku showed me to him/her/it,Kuku was given to me by Kuku
+170,kúkù kàŋcáŋà ŋúŋ,kukoɡaŋcaaŋom,Kuku showed you to him/her/it,Kuku gave you the snake
+171,kàŋcáŋǎ kúkù,kanicanakuku,Kuku showed him/her/it to you,Kuku was good
+172,kàŋcáŋà kúkù,kancanakʊɡu,Kuku showed him/her/it to you,he helped you
+173,kíŋâgɛ̀rɛ́ kúɽì,kiɲaɡerekolɪ,I went to the forest with him,I went to the forest with him
+174,ŋgìɲágɛ́rɛ̀ kúɽì,ɡɲaɡerajkʊlɪ,you went to the forst with him,I went to the forest with him
+175,kálgɛ́rɛ́ kúɽî,kalɡerekulɪ,she went to the forest with him,Kalu is in the family tree
+176,álárɛ́ kúɽì,alarekoli,you and I went to the forest,They went to be lost yesterday
+177,kalɛrɛr kúɽì,kaleɾərpuri,we all went to the forest,he broke the stick
+178,kálɛ̀rɛ̀ kúɽì,kallerekulɪ,they went to the forest with him,Kalu is in the family tree
+179,kállɛ̀rɛ̀ kúɽì,kallerekulɪ,they went to the forest with him,Kalu is in the family tree
+180,kúrǐ kìcə̀lò,olikecelo,the forest is good,The mouth is nice
+181,kúɽì kìcə̀lò,kolɪkiklo,the forest is good,The medicine is good.
+182,íŋgájjínɔ̀,iŋɡaino,I'm feeding (myself),I am about to eat food
+183,àɟà kèné,aɟakene,sometimes,Help Kuku!
+184,íɾíjɛ́ kɛ́ɽcàn,erɪekrʃan,20,his/her uncle is good
+185,kə̀t̪ɛ̀ví àprɛ̀ɲà ŋàɲà,kət̪viaprɛɲaŋaɲa,He made the boy cut the grass,Throw the lion at him! (far)
+186,ðə̀gʊ̀bʊ́l,ðekobo,pumpkin,Kuku will chop meat
+187,bʊ̀gʊ́l kìcə̀lò,bukokeʃeo,pumpkins are good,Kuku is good
+188,kúkù kàŋt̪ɔ́ kákàŋú bɛ́tɛ̀n nɛ̀ lɛ̀vɛ̀r,kʊkʊkat̪okakaŋobet̪ennelv,Kuku also saw Kaka in the field,Kuku drank water in the field
+189,kúkù bɛ́tɛ̀n kâŋt̪ɔ́ kákàŋú nɛ̀ lɛ̀vɛ̀r,ʔukubat̪ɛnkatkakamonelvar,Kuku also saw Kaka in the field,Kuku saw Kaka in the field
+190,àn kákà bɛ́tɛ̀ń kâŋtɔ́ kúkù nɛ̀ lɛ̀vɛ̀r,əkakəbat̪ənkat̪okukʊd̪əlavar,Kuku saw Kaka also in the field,Kuku will see Kaka in the field (far)
+191,kúkù kâŋtɔ́ kɔ́rìŋú nɛ̀ lɛ̀vɛ̀r dɛ̀ àn kákà kâŋtɔ́ŋ nɛ̀ lɛ̀vɛ̀r,kokɡat̪ɔkɔrɪŋdelvɛdeakakakat̪onelvar,"Kuku didn't see Kɔɾi in the field, he saw Kaka",Kuku saw Kaka in the field (and left)
+192,t̪àrɔ́ŋt̪ɛ́ t̪á t̪àŋòŋs,t̪aɾot̪et̪at̪am,he said he saw it,he is drinking water now
+193,tá kúkù r̀lɛ̀ɲì,t̪aʔukolɛɲɪ,Kuku chased it away,who did Kuku see?
+194,ɲìjɔ́l kúkù,nɪjɔrkʊku,Kuku ate it (the soup),My sibling is good
+195,jít̪ə̀vìnɔ̀,jet̪iveno,i cut myself,be lost! (far)
+196,búr ɲát̪ə́vìnɛ̌,borɲat̪vine,go and cut yourselves,Go in now! (far)
+197,bú ɲát̪ə́vìnɛ̌,buɲaɲat̪vine,go and cut yourselves,now exit (towards)
+198,íŋgát̪ə̀vɔ́,iŋɡat̪vo,Parts of: I'll go cut the rope (and come back),I am going to cut
+199,nìcɔ́lɔ̀,niʔono,brown squirrels,Eat at night!
+200,ácám kìcə̀lò,asamkiselo,civet is good,the stick is good
+201,rî rìcə̀lò,rireʃlo,thorns are good,The fist is good.
+202,ðî ðìcə̀lò,viəcilo,the thorn is good,The guns are good.
+203,áɾò kìcə̀lò,arokiʃilo,the chicken is good,This support pole is good.
+204,ðô ðìcə̀lò,ðoðecino,the stick is good,To drink water is good
+205,rô rìcə̀lò,rɔreʃelo,sticks are good,The cucumber is good.
+206,ìðɔ̀ŋɔ̀ ígùn kà kńnà èmàɾðɛ́n ápátɛ̀ kɔ́ɾà,iðiɡʊaknaimarðenapat̪iɡra,"her child, every woman brought him to school",Which song did grandfather like of the boy's?
+207,ɛ̀ðɛ̀ jìcə̀lò,ɛðjecel,meat is good,The poison/pain is good.
+208,ðù ðìcə̀lò,d̪uðecilo,the heart is good,The wood is good.
+209,rù rìcə̀lò,rorekl,the hearts are good,The skirt is nice
+210,ðú ðáɲì pɔ̀,ðʊðanɪpo,the heart is beating,worm is good
+211,tə̀vá lúɔ̀,t̪valo,cut the cloth,cut the rope! (far)
+212,àvàlá kèclò,avalakicilo,The cat is good.,Jujube fruit is good.
+213,àvàlà kèclò,avalakeʃl,The cat is good.,The water is good.
+214,ɛ̀màð kìclò,mɛðkɛcilo,The friend is good,The mat is good.
+215,àmàð kìclò,amaskicelo,The friend is good,the skirts are beautiful
+216,nɛ̀gɛ̀ðɔ́l,neɡeðol,enemies with,Eat at night!
+217,ɔ̀mnɛ̀ð kìcò,omneðkɪʔo,The enemy is bad,The man is about to eat the food
+218,ɛ̀vlá ŋ́gúɽì,ɛvlaɡuli,cat of the wild,I pulled it (sheep) here
+219,ùlíŋgɛ́ kìclò,olɪŋɡekesilo,The night is good,his/her mother is good
+220,ùjɛ̀l kìclò,ʊjɛlkeʃelo,The shadow is nice,birds/spirits are good
+221,d̪ùd̪ɔ̀ ðìclò,d̪ud̪oviclo,The floor is good,The rope is good.
+222,óɾá kìcə̀lò,orakəcilo,the child is good,Scratch the skin!
+223,ɛ́ðɛ́ jìcə̀lò,ɛðejeʃelo,the animals are good,The meat is good.
+224,óɾá kɛ́ kúkǔ kàmɔ̀ŋt̪ɔ́ ɛ́ðɛ̀,oɾakekʊkukamat̪ɔeve,kuku's child took care of his animals,child asked Kuku about it
+225,óɾá kɛ́ kúkǔ kàmɔ̀ŋnɔ́ ɛ́ðɛ̀ íjún ùnɛ̀ɾɛ̀,eoɾakekukukamnoeveiʊnneð,Kuku's child took care of his animals,Kuku saw Ngaru in the field
+226,òɾá kɛ́ kúkù kàmɔ̀ŋnɔ́ ɛ́ðɛ̀ íjɛ̀ɲí,orakkukukmeveieɲɪ,Kuku's child took care of my animals,Grandfather asked Kuku who ate it.
+227,òɾá kɛ́ kúkù kàmɔ̀ŋnɔ́ ɛ́ðɛ̀ íjɛ̀ɲí ùnɛ̀ɾɛ̀,wɾakekʊkʊkamaŋnaeðeieɲiʊnere,Kuku's child took care of my animals yesterday,Kuku's child took care of his animals yesterday
+228,sɔ̀ɽìŋgɔ́,soliŋɡo,donkey,I will see the rock.
+229,ábŕtɔ́ sàɽíŋgɔ̀,abkəsaliŋ,ride the donkey,be weak
+230,sɔ̀ɽíŋgɔ́ sádàn sáðúɽà ŕ ŋɛ́mbùɽù,sliŋɡsedansðllo,small donkey is breastfed like a calf,his/her/their mother is good
+231,sɔ̀ɽíŋgɔ́ sádàn,saliŋɡwasad̪an,small donkey,he will steal her cow
+232,sɔ̀ɽíŋgɔ́ sátàɽán,sɛiŋɡaseɾalan,small small,Parts of: These people eat a lot (far)
+233,ŋán ŋìcàlò,nnɲeʃilo,the milk is good,The rabbits are good.
+234,kɔ̀t̪ìnɔ́,kt̪ino,to braid,braid (yourself) (here)
+235,ìrɔ́ jɛ̀cə̀lò,irojecelo,the hair is beautiful,The hairs are good.
+236,ìrɔ́ jìcə̀lò,ɛraiecino,hair is beautiful,my father is good
+237,sɔ̀ɽíŋgɔ́ sátàɽǎn,saleŋɡɔssət̪alam,small donkey,he is going to cut the rope
+238,ŋán ŋìcə̀lò,nannicelo,the milk is good,The foxes are good.
+239,àbrá t̪ɔ́wə̀nì,brat̪vəni,jump now! (far/towards),Break the log! (far)
+240,láíðɔ̀ ìjɔ̀,leðəi,they will make a fire,They were shewed
+241,kɔ́t̪ínɔ́,kot̪ino,braid hair,braid (hair)
+242,ìrɔ́ jìcə̀lò,irojeʃelowi,the hair is beautiful,The poisons/pains are good.
+243,làbúlìjɔ̀,labuli,Parts of: They will wrestle the man,They wrestle (far)
+244,d̪úɾú ɛ́lɔ̌,d̪ʊroɛlo,Stand up,wood (pl) are good
+245,lɛ̀d̪ùɾú jû,led̪oroio,They stopped there,They stood here
+246,lɔ̀bìðí bacʊm,lobd̪ibaʃimɡd̪ɛn,They met with the fox,They will build a house tomorrow
+247,kə́nà àprí jə̀gàràt̪ɔ́ ðówɛ́ nɛ̀ lə̀və́r lɛ́ðɛ́t̪ɛ̀n,napɾiiɡaɾat̪oðweleverevet̪en,Every boy broke a stick in his father's field,The boy will pull the sheep (towards)
+248,jígíɲàt̪ɔ̀,iɡɲat̪o,I broke,I broke
+249,íjìbí ɔ́ɾà kɛ́ kúkù ŋà,jibɪoɾakekʊkʊa,I married Kuku's sister,I visited Kuku's mother
+250,íjìbí ɔ́ɾà kɛ́ kúkú,eimɔakɛkʊʔo,I married Kuku's sister,I cooked soup and left
+251,kɔ́t̪ɔ́ ìrɔ́ íjùn,kot̪oɪroiun,Braid her hair. ,he saw it (sheep) yesterday
+252,kɔ́t̪ɔ́ ìrɔ́,kot̪oɪro,Braid hair. ,they braided hair
+253,kɔ̀t̪á ìrɔ́ íjùn,kot̪airoiu,Braid her hair (far away).,he is a shepherd
+254,lákɔ̀t̪ìnɔ́,lakot̪ino,They will braid themselves (far away),They will braid themselves.
+255,ŋɔ̀ɽíŋgɔ̀,maoliŋɡo,adult donkey,the snake is small
+256,ɲɔ̀ɽíŋgɔ́,ɲoliŋɡo,donkeys,extinguish the candles!
+257,ábró t̪ɜ́wə̀nì,abrɔt̪aane,Jump now.,Dance now! (towards)
+258,ábró t̪ɜ́wə̀nì,abrɔt̪əonɪ,Jump now.,Jump in now! (towards)
+259,àbrá t̪ɜ́wə̀nì,aprat̪əɔne,Jump now (far away or towards).,They are beaten now (far)
+260,t̪ʊ̀lí t̪ìðìɲàcì,tɔledoviɲaci,The lion scares me.,the tree will burn (far)
+261,t̪ìðìɲîŋì t̪ʊ̀lí t̪ìðìɲîŋì,teðəɲɪŋid̪olɛtjɪŋe,"It scares me, the lion scares/scared me.",Then the hare (that hare) ate the meat (continuously) until he got fat
+262,náŋîðɛ̀ŋɛ̀cí,naɲeiviɲaci,He scares me away from (denies me from)...,you all were shepherds last year
+263,ǎn kə̀ɽìɲáɲàggɛ̀ náŋìðɛ̀ɲɛ̀cì ðíjà ɛ̀ðɛ́,aŋkɲaɲaɡenaŋivɲɛciviaide,"When we hunt/kill together, he denies me from eating meat.","It's not Kuku that I saw, it's someone else."
+264,wɛ́ ànt̪á kájt̪ìŋì,weant̪akait̪iŋi,It's what makes me...,Where did the dog eat it?
+265,ɔ́ɽɔ́ t̪ə̀màn,ɔldot̪əman,Run fast!,Fall at home! (far)
+266,àpá súɽú t̪ə̀wə̀nì,apasʊlut̪əwani,Bring the beer here now (towards speaker),Pull them (away) now!
+267,ápɔ́ súɽú t̪ə̀wə̀nì,apɔsɔvət̪avane,Bring the beer now (away from speaker),Bring me jujube fruit now!
+268,làpɔ́ súɽù,lapɔsʊlo,They brought the beer,They will scratch the skin
+269,làpɔ́ súɽú,lapɔssʊlu,They brought the beer,S/he pulled them here.
+270,lápɔ́ súɽù,laposʊlʊd̪,They will bring the beer,they hit the wood
+271,jɛ́wàjí ré ɛ́rɛ̀ɲì,iwaereeleɲi,I washed MY hands,my brothers are good
+272,jɛ́vlɛ̀cɜ̀cí kúkùŋ lɛ̀ŋgɛ̀n,pivletaɟkokoleɡen,I visited Kuku's mother,"The pen, the Kuku will pull (away)"
+273,jɛ́vlɛ̀cɜ̀cí kúkùŋú lɛ̀ŋgɛ̀n,jɛvlececikukomlɛŋɡən,I visited Kuku's mother,I stole a table from Kuku
+274,jɛ́vlɛ̀cìt̪ɔ́ kúkùŋú lɛ́ŋ̀gɛ́n ígùn,ivleʃɪt̪okupʊmuliŋɡenɡun,I visited (his/her/Kuku's) mother for Kuku,I visited Kuku's mother for him
+275,jɛ́vlɛ̀cɜ̀cí kúkùŋú lɛ́ŋgɛ́n ígùn,evleʃeʃɪkukumleɡeneɡon,I visited Kuku's mother,I visited Kuku's mother for him
+276,áɾɔ́ íŋgárɛ́ kílì,aroiŋɡarekɪlɪ,"Say, ""I went to the market!""",I showed the snake to him
+277,àɾá ɔ̀ɽcâ,aɾaolica,"Say, ""Jump""! (far away)",the tree will burn
+278,wɛ́ nnɔ́ bácúm t̪ǎ,wenobakɪmt̪a,When the fox heard that,When the fox heard that
+279,bú árt̪ɛ̀ t̪ɔ̀léŋ,boart̪et̪oleŋ,Go and tell the lion,Tell him to dance (here) now
+280,bú árt̪ɛ̀ t̪ɔ̀lêŋ́,boart̪et̪olɪŋ,Go and tell the lion,Tell him to jump now (far)
+281,jíŋàcàcí ɔ́ɾà kɛ́ kúkù ŋà ŋávɛ̀,ŋaʃacorakekʊkʊmaŋeve,I brought Kuku's brother water (at some place),I brought Kuku's brother water
+282,jíŋàcàcí ɔ́ɾà kɛ́ kúkù ŋà ŋávɛ̀ nɛ̀ lɛ̀vɛ̌ɾ,iŋaʃetɪorakekʊkʊaŋavenelvɛr,I brought Kuku's brother water in the field,I introduced Kuku to him yesterday
+283,jíŋàcìt̪ɔ́ ɔ́ɾà kɛ́ kúkù ŋà ŋávɛ̀ kúkùŋù,iŋəɟit̪ooɾakekʊkomnavekʊkʊŋo,I brought Kuku water on behalf of Kuku's brother,I introduced Kuku to him yesterday
+284,ɛ̀vàɾtɔ̀ kìcə̀lò,evart̪kecelo,The teacher is good,The worm is good.
+285,âŋú ádám íjɛ̀ ɲì,amoad̪amjeɲe,did you see my book?,amo am about to eat meat
+286,bɔ́lɔ́ t̪ɔ̀wə̀nì,bɔrot̪ɔne,wrestle now!,Blow now! (far)
+287,bɔ̀lá t̪ɔ̀wə̀nì,olat̪onɪ,wrestle now (far away),They are going in now (towards)
+288,bɔ́lɔ́ t̪ɔ́wə̀nì,bonot̪owani,wrestle now!,he is looking at my parent-in-law now
+289,t̪ɔ́t̪ɔ́ súɽú,atasolo,Drink someone else's beer!,Return! (towards)
+290,t̪ɔ́t̪ɔ́ súɽù,t̪ot̪osu,drink someone else's beer!,drink water (far)
+291,t̪àt̪ɔ́ súɽú,patrɛsu,drink someone else's beer! (far),palm (of hand)
+292,və́lɛ́cíðúr,lekeðrʊ,visit! (pl),Parts of: I broke the log
+293,və̀lɛ̀cìðá,leʃiða,visit! (far),the bowl is good
+294,lìɟí làɽíɲɛ̀,liŋɡilalɲ,Parts of: people extinguished candles yesterday (far),Parts of: These people are eating a lot
+295,àpɾí jápíjɔ̀ kúkùŋ ɔ́ɾɛ́ nd̪ɔ̀bà,apriiapiɔkokooɾand̪ava,the boy will make Kuku carry the baby away tomorrow,the boy will bring Kuku to the house tomorrow
+296,àpɾí jápìjí kúkùŋ ɔ́ɾɛ́ nd̪ɔ̀bà,apɾiapikukourd̪ova, the boy will make Kuku bring the baby tomorrow,the boy will help Kuku tomorrow
+297,ùɾnɔ̀ kɛ̀ɽðɔ́ kúkùŋú àn ɔ́ɟɔ́ kíjà ŋɔ̀mɔ̀ nd̪ɔ̀bà,pʊrnakerðokukuŋoanoɟakejavnd̪aba,grandfather asked Kuku who will eat the food tomorrow,grandfather asked Kuku who will see the lion tomorrow
+298,ùɾnɔ̀ kɛ̀ɽðɔ́ kúkùŋú t̪á àn ɔ́ɟɔ́ kíjà ŋɔ̀mɔ̀ nd̪ɔ̀bà,ornakɛrd̪ɛkɔkɔmɔt̪aənoɟet̪iaŋəəd̪aba,grandfather asked Kuku who will eat the food tomorrow,grandfather asked who will eat the food tomorrow
+299,àɾò kìcə̀lò,arokɪcilo,The brother is good,your brothers are good
+300,ùðɔ́ kìcə̀lò,uðamkitilo,The worm is good,The food is good.
+301,pínɔ́ kɔ́ɾì,pinokorɪ,swim!,the palm tree is beautiful
+302,árðɔ́ t̪ɔ̀wə̀nì,arad̪ət̪aone,shave (s.o.) / cut hair now!,Say something now! (far away)
+303,árðɔ́ írɔ̀,sarðoɪɾo,cut someone's hair,sarcoidosis is common
+304,ɔ́lá kicə̀lò,ɔlakecilo,animals are good,The stick is big.
+305,àúr jìcə̀lò,aɔrjeʃilo,the door is good,The roofs are good.
+306,ŋìà ŋìcə̀lò,nijaŋŋicilo,the beer is good,The meat is good.
+307,kə̀rdɔ́ díjɔ̀,kɾðd̪ɪo,he has a cow,shake the bell! (far)
+308,t̪ɔ́t̪ɔ́ álɛ̀,pot̪oale,throw the stone (away),chop the stone (far)
+309,ámácíŋì ní,aciŋn,wait for me here!,rest
+310,ǎn kúkù káŋíŋí,ankukokanni,It's Kuku that I saw.,It's him that Kuku saw
+311,ǎn ùɟí kǎr káɟà,anʊɟiɡarkaɟa,Someone different,Who is afraid of the fox?
+312,kǎr káɟà,kɛrkaɟa,Someone different,who did you see?
+313,uɟi kàrɔ̀,ɡekaɾro,?,(Kuku) is good
+314,ǎn íŋí kúkù,anɪŋikuko,I am Kuku.,It's only Kuku I saw
+315,ǎn kúkú káì,ənkʊkʊkaj,That's Kuku.,Kuku was lost
+316,ǎn kúkú kɛ̀,nkukʊke,This is Kuku.,Kuku was good
+317,ǎn kúkú kɔ̀n,ɛnkukukɔn,That's Kuku (addressee and Kuku are together far from speaker).,Kuku will see him
+318,kúkú kɔ̀n,kukukɔn,That's Kuku (addressee and Kuku are together far from speaker).,Kuku watches the dog habitually
+319,ǎn ɔ́ɟɔ́ kɛ̂,anoɟoke,Who is this?,Who is this?
+320,ǎn kúkù kâi dɛ̀,ənkukokede,That is not Kuku.,Kuku ate it (sheep)
+321,lídí lîcə̀lò,ledeletel,The pot is good.,My folks are good
+322,lídí lɛ̌ kiɲɔ́,ledilkeɲo,The boy cracked the pot.,their uncle is good
+323,nɛ́ kàrɔ́ áprì,nekaroapri,?,shove the boy's hand
+324,nɛ́ kìɲɔ́ áprì,nekɲoapre,?,When did the boy open the door?
+325,ŋɔ̂ɽàt̪àt̪ɛ̀,moldat̪at̪e,(dog) runs away from (the boy in the field),Parts of: Kuku fell at home (and left)
+326,ŋgá kɔ́t̪ìnò,vakwt̪inu,she will braid her own hair,Take the water from the calabash now
+327,lákɔ́t̪à ɔ̀nì,nokot̪aoni,they will weave a basket,Kuku is about to eat vegetables now
+328,àvɟɛ́gɛ́ ìcə̀lò,avɟeɡɛecil,the rug is good,To spread the mat is good
+329,ìrí kɛ́ðùpì kɛ́r nɔ́kɛ̌n àn ðúɽùbǔ nɛ̀ lùpìɽíl váɽàn,iɾikaðopekarnokenðʊrboloplɛlvlan,‘The real name for the pen is ‘zuhubu’ (name of tree) and the stick also’,I brought with me the basket of rabbits
+330,ìrí kɛ́ðùpí kɛ́r nɔ̀kɛ́n,irekeðopekɛɾnoken,The real name for the pen...,I put the pen inside the book
+331,ìrí kɛ́ðùpì kɛ́r nɔ́kèn àn ðúɽùbǔ nɛ̀ lùpìɽíl váɽàn,irikeðopekɾnokenand̪ʊɾbuneloplelvlan,‘The real name for the pen is ‘zuhubu’ (name of tree) and the stick also’,What did the grandchildren say the ball will fall on?
+332,ìrí kɛ́ðùpì kɛ́r nɔ́kèn,irekeðopekərnɔkeni,The real name for the pen...,I brought Kuku's brother
+333,ìrí kɛ́ðùpì kɛ́r nɔ́kɛ̌n,irikeðopekarnoken,name of-pen is true,I put the stick inside the table yesterday
+334,kɛ́r nɔ́kɛ̀n,ernaki,true name,the snake is small
+335,jùpì jûnd̪òt̪ǔ jìcìlàt̪ó kán kálðíɾín ŋà,iopeiond̪ot̪oeʃlat̪okankðerenŋa,‘Dry pens are good with ????,I visited Kuku's mother when she arrived
+336,jùpì jûnd̪òt̪ǔ jìcìlt̪àt̪ó kán kálðíɾín ŋà,iopɛiond̪t̪oekelt̪at̪okankalveɾ,‘Dry pens are good with ????,the boy wants to drink water instead of Kalu
+337,jùpì jɛ́ŋáǒ jǎjɛ́ làgbúð làgàbúð nɛ̀ lɔ̀gtár,jopejŋaojjelaɡboðlaɡboðlt̪a,Ink pens can be used by ?? and ??,"When the boy heard that, he felt very sorry"
+338,ðìɲó ðícìlò,eɲeðecelo,very well,This curse is good.
+339,árlát̪ɔ́ cùcú,alat̪ət̪ɪco,walk fast! (away from),Tell him to steal cows (far)
+340,árlát̪ɔ́ t̪ə̀màn,arlat̪ət̪əmban,walk fast!,Climb down quickly! (away)
+341,àrlàt̪á t̪ə́màn,arlat̪at̪man,‘walk fast!’ (towards),Tell them to escape quickly (towards)
+342,àrlàt̪á cúcù,lat̪aɟɪʃo,‘walk fast!’ (towards),who did you chase?
+343,èdɛ̀ɽì kìcə̀lò,id̪elikɛcelɔ,herbs are good,my uncle is good
+344,áŋɔ́ŋní kúkú,ɛlaŋnikukɔ,help Kuku,I introduced Kuku to him
+345,pìnɔ́ kɔ́ɾì,pinokorɪ,swim (far),the palm tree is beautiful
+346,lídí lə́ɽà lài,lid̪enalalaj,That big pot is good,Then you can repair the flaw
+347,ŋídí ŋə́l ápɛ̀ ŋìɽìcàn ŋə̀ɽá ŋái ŋinɔ,nid̪iŋɪlapemult̪ɛrnoranairo,Those two big pots that I carried are heavy,Those two pots that I carried are heavy
+348,lídí lɛ̀ kìɲɔ̀,led̪elɛkno,The pot broke,their uncle is good
+349,ŋgá ɔ̀ɽcàcìðìjìt̪ɔ̀ ŋɔ̀ɾà kúkùŋù nd̪ɔ̀bà,jaɡolʃacɪvɪt̪omrakukood̪oɡo,she will make the children help Kuku tomorrow,I introduced Kuku to his mom
+350,ɛ́cílò,ecilo,I'm fine,choose yourselves!
+351,ɲàcìlò,nacilo,We're fine,The knives are good.
+352,ɲàcìlò tásá,nakelotasa,We're all fine,The rock is good.
+353,ɲácìló tásà,acelotasa,We're all fine,Parts of: the farmer is upset with the farmer.
+354,ɲácìló tásǎ,nacilotasa,We're all fine,The guns are good.
+355,ŋɔ̀rà ŋìcìlò,maranɪcilo,The kids are fine,The knives are good.
+356,èmàɽðɛ́n kícìlǒ,emarðankecelo,My wife is good,your brother is good
+357,wáló wə̀rkɛ̌v,waloɡəkɛv,How is your wife?,Parts of: Hyena will beat tomorrow
+358,wáló kràráò,walokarao,How is your wife?,How is the fox?
+359,kìcə̀lò,kəcilɔ,porcupine,Return! (towards)
+360,wáló kə̀rkɛ̌v,waloɡapkɛf,How is your wife?,How did the boy pull it (sheep)?
+361,ɔ̀pí ŋámɽàrě,ot̪ieŋamalare,Thank you very much,Tell them to eat food (far)
+362,àpɾí jɛ̀rcɜ̀cí ðíjá ɛ́ðɛ̀,apɾeɪrkeʃiviaev,the boy tried to eat the meat,"the boy is good, he is good"
+363,jâmìɲíl jíl íjà,jamnelielia,I like to eat it,I like to eat it
+364,ɛ̀ðɛ̀ jámìɲíl kúkù jǎŋ íjà jàmì,ɛjamɲelkukojŋɛjajame,The meat that Kuku likes is tasty,I like Kuku
+365,kúkù kìjɔ́ ɛ́ðɛ̀ jɛ́ŋgìð,kʊkokijoeðejeŋɡil,Kuku ate the meat raw,Kuku ate meat
+366,ìjɔ́l kúkù jɛ́ŋgìð,ijɔlkokojeŋɡeð,Kuku ate it raw,I introduced Kuku to his mom
+367,ábút̪ɔ́ t̪ɔ̀wə̀nì,abot̪t̪awani,Climb up now! (speaker on the ground),Dance at home now! (far)
+368,àbùt̪á t̪ɔ̀wə̀nì,abot̪at̪əoni,Climb up now! (speaker in the tree),Stab now! (far)
+369,pínɔ́ t̪ɔ̀wə̀nì,pinot̪oonɪ,Be beaten now!,he is about to come home now
+370,pìnɔ́ t̪ɔ̀wə̀nì,pɪnot̪əwani,Be beaten now! (far),he is looking at his wife now
+371,kə́lcí àvɟègɛ̀,kəlciavɟiɡe,Spread the mat!,Spread the mat!
+372,kə̀lcá àvɟègɛ̀,kalcaafɟiɡe,Spread the mat! (far),Spread the mat at home now!
+373,làkə́lcì àvɟègɛ̀,lakətiɛvɟiɡe,They spread the mat (and left),They will spread the mat
+374,úɽcí t̪ɔ̀wə̀nì,orkit̪aoni,Jump now! (away),Look for a dress now (far away).
+375,ùɽcá t̪ɔ̀wə̀nì,ʊrʃat̪əoni,Jump now! (far/towards),‘shut down now!’
+376,rmàn rìcə̀lò,rɔmanreʃelo,The legs are good.,The skirts are good.
+377,ŋúɽî ŋìcə̀lò,mɔlenəcilo,The axe is good.,The skins are good.
+378,èdɛ̀ɽì kìcə̀lò,idɛlikɪʃlo,The herb is good.,this (drop of?) power is good
+379,lídí lìcə̀lò,lidɪleʔelo,The pot is good.,my uncles are good
+380,ŋídí nìcə̀lò,nidiŋiʃelo,The pots are good.,The mountains are good.
+381,ʊ̀mí kìcə̀lò,umikecelo,The bell is good.,The palm is good.
+382,nʊ̀mí nìcə̀lò,nominekelo,The bells are good.,The food is good.
+383,gʊ̀bʊ̂l kìcə̀lò,ɡbolkecelo,The pumpkins are good.,The palm (of hand) is good.
+384,àɽà kìcə̀lò,arakiclo,The goat's milk is good.,The curse is good.
+385,àlkúrcì jìcə̀lò,alkʊrtɪjeʃl,The money is good.,His/her/their mother is good
+386,ájà kìcə̀lò,aakikelo,The mother is good.,your brother is good
+387,cʊ̀mú cìcə̀lò,cʊmoticlo,The scorpion is good.,The palm is good.
+388,dìjɔ́ rìcə̀lò,d̪ɪreklo,The cow is good.,The skin is good.
+389,ìrɔ́ jìcə̀lò,iroiklo,The hairs are good.,The skirts are good.
+390,dún kìcə̀lò,d̪oŋkeʃilo,The home is good.,The night is good.
+391,ɛ̀là kìcə̀lò,ɛlakicilo,The mushroom is good.,our (dual) brother is good
+392,ɛ́ɾɛ́ kìcə̀lò,ɛrekiʃlo,The fence is good.,The leather is good.
+393,ìlí jìcə̀lò,ilijecelo,The market is good.,The bowl is good
+394,èmàð kìcə̀lò,emavkəcilo,The friend is good.,The stick is good.
+395,ìndò ìcə̀lò,ɪnd̪eʃlo,The drum is good.,This egg is good.
+396,íɾí kìcə̀lò,irikicelo,The trough is good.,The trough is good.
+397,ìɾí kìcə̀lò,erikɛcelo,The name is good.,This leather is good.
+398,ǹdrí nìcə̀lò,ɾrinekelo,The names are good.,The skirt is good.
+399,ìjɔ̀ ìcə̀lò,ioeʃil,The shepherd is good.,The poison/pain is good.
+400,kámàɽà kìcə̀lò,kamalakecelo,The friend (casual) is good.,Camel is good
+401,kárò kìcə̀lò,karokecilo,The cart is good.,Close the door! (far away)
+402,ŋàɽà ŋìcə̀lò,nalaniʃelo,The candles/gums are good,the cats are good
+403,lán lìcə̀lò,lanleklo,The (drop of) milk is good.,The candle/gum is good.
+404,ŋán ŋìcə̀lò,nanniʃelo,The milk is good.,the milk is good
+405,lə́vcí kìcə̀lò,lɛvcekɛcalo,The cover is good.,my brother is good
+406,lípíjó lìcə̀lò,lepioleklo,The mushroom sp. is good.,The teachers are good.
+407,lə̀t̪ɾì lìcə̀lò,t̪rileʃelo,The skirt is good.,The Tira people are good.
+408,lʊ̀tú lìcə̀lò,lʊtulekolo,The fist/small house (hut) is good.,The bird/spirit is good.
+409,ɔ̀ɽàt̪à jə̀cə̀lò,ɔlat̪ajeʃlo,The light is good.,The tongue is good.
+410,ɔ̀ɾì kìcə̀lò,ɔrikicilo,The water is good.,The troughs are good.
+411,ɔ̌j kìcə̀lò,ɔjkəcilo,The bee/honey is good.,The cucumber is good.
+412,lǎj lìcə̀lò,lɪlekelo,The bees/honeys are good.,The wood is good.
+413,ʊ̀mì kìcə̀lò,omekəcilo,The fish is good.,My husbands are good
+414,nʊ̀mì nìcə̀lò,nomeneklo,The fish are good.,The snakes are good.
+415,ònì kìcə̀lò,onikiʃelo,The basket (made of palm leaves & sticks) is good.,The stones are good.
+416,rɽò rìcə̀lò,rororeklo,The goat is good.,The rock is good.
+417,èɽò jə̀cə̀lò,ɛloeclo,The goats are good.,The foods are good.
+418,ìŋɔ̀ jìcə̀lò,iŋɛcelo,The snakes are good.,The meat is good.
+419,tá lìcə̀lò,taleklo,The head is good.,The flower is good.
+420,ŋtá ŋìcə̀lò,mtaniclo,The heads are good.,The spiderweb is good.
+421,ùɽɔ́ kìcə̀lò,ʊlɔkicelo,The guinea fowl is good.,The birds are good.
+422,ltɔ́ lìcə̀lò,tɔleʃono,The guinea fowls are good.,the dress is good
+423,ùɽùwɔ̀ kìcə̀lò,ʊlwakecelo,The bird/spirit is good.,The mud is good.
+424,ùlɔ́ kìcə̀lò,ʊnɔkecəno,The flour is good.,the door is good
+425,ònì kicə̀lò,ɔnekəcilo,The basket is good.,The gourds are good.
+426,wɛ́n kìcə̀lò,wɛnkeʃlo,his wife is good,The wives are good.
+427,ɔ́lá kìcə̀lò,ɔlakeɡelo,The flour residues are good.,The palm is good.
+428,ámál kìcə̀lò,amalkecelo,The boy is good.,The medicines are good.
+429,lɛ̀mbré lìcə̀lò,ləmbrɛleklo,The bedsheet is good.,The feather is good.
+430,ɔ̀mnɛ́ kìcə̀lò,omnekeʃelo,"This enemy is good.
+",The sun is good
+431,tòsò lìcə̀lò,tosoleʃlo,This palm tree is good.,The shirt is good.
+432,àjén ìcə̀lò,aeneʃl,"This hill is good.
+",His/her/its brothers are good
+433,àjín ìcə̀lò,eɪniʃlo,"This Earth is good.
+",offspring is good
+434,ɜ́ɾú kìcə̀lò,ɛrukiʃno,"This water skin is good.
+",The trough is good.
+435,ŋɛ́ɲ ŋìcə̀lò,ɲɛɲnecilo,"The eggs are good.
+",The goats are nice
+436,nàì nìcə̀lò,najneʃelo,"This sweet potato is good.
+",The meat is good.
+437,ŋɛ́n nìcə̀lò,ɲɛnnəcelo,"This dog is good.
+",The axes are good.
+438,ɲɛ́n ɲìcə̀lò,ɲɛnɲecilo,"The dogs are good.
+",The goats are nice
+439,ŋ̀rím ŋìcə̀lò,ŋrɛmŋeʃelo,"This darkness is good.
+",The goats are nice
+440,órá kìcə̀lò,ɔrakcilo,"This child is good.
+",The skirts are good.
+441,ùɽɟɛ̀n kìcə̀lò,ɔrɟɛnkeʃlo,"This calabash is good.
+",The gourd is good.
+442,ùjɛ̀l kìcə̀lò,uijalkisulo,"This photo is good.
+",the tree is good
+443,jɔ̀ɽár jìcə̀lò,jolarijeʃno,The tigers are good.,The skins are good.
+444,óɾó kìcə̀lò,ɔrokiclo,"The support poles for roof are good.
+",The rock is good.
+445,wɛ́ ɛ́lɔ́ kàrt̪íŋǐ,weɛlokart̪ɪni,Then God said to me,I am (in the middle of) cooking
+446,kàɾó ŋ̀gɛ́lǎ ŋgíɲágɛ́ ɔ̀bðà nd̪ɔ̀bàgɛ́ kə̀rdɔ́ nə́rt̪á ŋáŋàl líŋcà,karoɡelaɡɪɲaɡeobðand̪obaɡəkarnart̪anaŋalɪŋtel,"he said you will go and meet him, he has some words to tell you",He is going to cut the rope right now
+447,kálú èrt̪á èrt̪á,kaloeɾt̪ɾt̪a,in a place like this ,he said he saw it
+448,kə̀rdɔ́ ŋə́rtá ŋáŋàl lìŋcáló ŋɔ́ɲà r̀pí,kərdanartananallɪŋkcalomoɲarpi,"he has words to tell you, a lot",he has some words to tell you
+449,cíló t̪ɔ́wə̀nì,ʃelot̪awəne,be good now,You are about to eat the food
+450,cìlá t̪ɔ́wə̀nì,kilat̪aoni,be good now(far away),he is looking at you now
+451,lìcə̀ló,likelo,they are good,The fist is good.
+452,cùbó cìcə̀lò,cɔboɟeclo,The nut is good,Climbing up is good
+453,ŋàtá ɲùcò,nataʊcɔ,taste the soup! (far),Scratch the skin!
+454,láŋát̪ìðìt̪ɔ̀ kukuŋu ŋucɔ,selaŋat̪əðɪd̪akʊkʊnʊmʊco,they will taste Kuku's soup,I cooked soup for Kuku (far away)
+455,kĺcí ɛɾaðɛ,kəlceraðe,spread the cloth!,You all pulled him here yesterday
+456,ŋgákĺcàtà ɛɾaðɛ ɛɽɛ,vakrkat̪eraðɾe,(Kuku) will spread the cloth inside,Kuku and Kaka saw each other in the field
+457,kúkú ŋgákĺcàtà ɛɾaðɛ ɛɽɛ,fəŋkʊkwaklʃɛt̪airaðɛle,Kuku will spread the cloth inside,I visited Kuku's father yesterday
+458,ŋgákl̀càt̪ɔ́,javakcat̪o,(Kuku) will spread,I will see the shirt.
+459,àpɾí jáðídìjà ðúɽí kàɾí,aprivdivɪlikari,the boy is sitting in the tree (in the branches),the boy is playing with the stick
+460,bə̀ɽɔ́ t̪ɔ́wə̀nì,bʊɾɔt̪aone,‘Hit something now (far)!’,Blow now! (far)
+461,t̪ɔ́ɽɔ́ t̪ɔ́wə̀nì,t̪ɔlot̪ooni,‘Write something now!’,‘Form/create something now!’
+462,t̪ɔ̀ɽá t̪ɔ́wə̀nì,t̪ɔɾat̪əoni,‘Write something now! (far)’,Tell him to urinate now (far)
+463,t̪ɔ́t̪ɔ́ t̪ɔ́wə̀nì,t̪ot̪ot̪ooni,‘Throw something now!’,Tell him to be lost now (here)
+464,t̪ɔ̀t̪á t̪ɔ́wə̀nì,t̪ot̪at̪əoni,‘Throw something now!’ ( could be both “towards” or far),be lost now (far)
+465,vɜ̀ɾá t̪ɔ́wə̀nì,vaɾat̪ooni,‘Run towards now!’,Escape home now
+466,ðɜ̀ríbì ðìcə̀lò,ðaribiðɛʃɪlo,the animal pen is good,The nut is good
+467,ðàríbì ðìcə̀lò,ðɛribiviʔɪlo,the animal pen is good,To eat meat is good
+468,jàríbì jìcə̀lò,iarebɪiɛʃeno,animal pens are good,my sibling is good
+469,ɛ̀làɽà kə̀ɽà,ɛlalakla,farmer is big,The monkeys are tall
+470,kʊ́blɔ́ŋnɔ̀,kɔblanɔ,hide,Fall! (towards)
+471,nɛ̀ ŋìðìɲí út̪ìðí,nŋðneutid̪i,Then the hare called,The hare is hiding
+472,àvɟìgɛ̀,avɟiɡe,mat,you are about to break the log
+473,àt̪á kɛ̀lcí ávɟìgɛ́ dɛ̀,ataknʃiavɟiɡɛd,Don’t spread the mats! (towards),Take the water from the calabash
+474,àt̪á kɛ́lcà àvɟìgɛ́ dɛ̀,atakɪʃavɟiɡɛd̪i,Don’t spread the mats! (away),Take the water from the ground now
+475,án kìpí ŋìnéðàt̪ɛ̀ ásǎ,aŋkpɪŋɡnelat̪asa,until he is satisfied,I am seeing a leopard now
+476,t̪òlé t̪ìjɔ́ ɛ́ðɛ̀ jít̪ɛ̀jìnɔ̀ ásà,d̪ulet̪ijoeðeit̪enasa,The lion ate the remaining meat,The lion was eating the meat at home
+477,mút̪ɔ́ ŋúcɔ́,mut̪amʊco,sip soup,taste the soup
+478,ɾácí ŋávɛ̀,pacinave,pour water,he is about to cut the rope
+479,ɾàcá ŋávɛ̀,araʃanave,pour water (far away),you are about to shake the mud
+480,kárcí lə́bʊ̀,karʃelobis,look for a ball,put the ball on the table (far away)
+481,wɛ́ nâdrí áprí álkùrcɛ́ ŋílɛ̀t̪ɛ̀ èdìrá lúɔ̀,nad̪raprərbʊrkenɪlet̪ed̪elalʊ,"When the boy got the money, he bought a dress for the girl (here).",When did the grandchildren say that the lion bit?
+482,wɛ́ án àprí jə̀drí àlkùrcɛ́ ná ŋílɛ̀t̪ɛ̀ èdìrá lúɔ̀,ʊeanapɾiad̪rirvuʃenaŋilet̪ed̪eralʊo,"Whenever the boy got the money, he bought a dress for the girl (here)",How did the grandchildren say that the dog bit?
+483,án àprí jə̀drí àlkùrcɛ́ jǎrà jìlɔ̀t̪ɔ́ édìrá lúɔ̀,anaprɪad̪rialɡʊrkeiaraɪlot̪oed̪eralʊo,"If the boy got the money, he bought a dress for the girl.",What did the grandchildren say the dog bit?
+484,án àprí jə̀drí àlkùrcɛ́ jǎrà jìlɔ̀t̪ɔ́ járà jàílɛ̀t̪ɛ̀ èdìrá lúɔ̀,anapread̪rerɡʊrkeiaraɪt̪ojarelet̪d̪eralʊo,"If the boy got the money, he bought a dress for the girl(happened here or he left)",Which song did grandfather like of the boy's?
+485,án àprí jə̀drí àlkùrcɛ́ járà jàílɛ̀t̪ɛ̀ èdìrá lúɔ̀,anapɾiðɾlɡʊkeiarajelet̪eðeɾalʊo,"If the boy got the money, he bought a dress for the girl(happened here or he left)",Which song did grandfather like of the boy's?
+486,ìlɔ́ àprí jàdrí àlkùrcɛ́ járà jìlɔ̀t̪ɔ́ èdìrá lúɔ̀,eloapɾɪaðɾealkuɾteiarailat̪oeðralʊo,"If the boy had gotten the money, he would have a bought a dress for the girl.",Which song did the grandfather laugh at when the boy sang?
+487,ìlɔ́ àprí jàdrí àlkùrcɛ́ járà jàílɛ̀t̪ɛ̀ èdìrá lúɔ̀,iloapriad̪rialkʊrteiarajelet̪ed̪eralʊo,"If the boy had gotten the money, he would have a bought a dress for the girl (here, or he left)",What did the grandchildren say the lion bit?
+488,mə̀nà càt̪á án âjt̪ɔ́ ŋìðə̀nɔ́ŋ ŋírɔ́t̪ɛ̌ íŋgáŋàɽìɲà,mnacat̪aanet̪aŋnamrat̪iŋɡŋali,"From today, if you leave (lit. let) the hare (this particular hare) to starve (lit. be hungry), I will kill you.",He is watching my dog now
+489,mnà càt̪á án ájít̪ɔ́ ŋìðìnɔ́ŋ ŋ̀rɔ́t̪ɛ̌ íŋgàŋâɽìɲà,naʃat̪aanɛt̪oŋnoɡrot̪eɡaŋalia,"From today, if you leave (lit. let) the hare (this particular hare) to starve (lit. be hungry), I will kill you.",he went to see his donkeys
+490,ìrcɛ̀cɔ́ ðə̀t̪ɾɛ̀,jrʃeʃɔðet̪re,Learn/teach Tira! (far),I shaved myself (and left)
+491,láírcɛ̀cɔ̀ ðt̪ɾɛ́ t̪ə́màn,lɛrkecit̪rɛt̪əman,They will learn/teach Tira soon,tell them to climb down quickly (away)
+492,láírcɛ̀cɔ̀ ðə̀t̪ɾɛ́ t̪ə́màn,lʔeʃoðət̪ɾɛtəmən,They will learn/teach Tira soon,They went to throw the root away quickly
+493,láìrcɛ̀cí ðə́t̪ɾɔ́ t̪ə́màn,laceʃit̪rat̪əman,They will learn/teach Tira soon (far),They will give the spider food quickly.
+494,láìrcɛ̀cí ðə́t̪ɾɛ́ t̪ə́màn,rarɟijcivitt̪rɛttəman,They will learn/teach Tira soon (far),They told him to climb down quickly now (far)
+495,láírcɛ̀cì t̪rɛ́ t̪ə́màn,lrkikit̪rɛt̪əmman,They will learn/teach Tira soon (far),They learned/taught Tira last year
+496,mnà án kìjàt̪à,mənaaŋkat̪a,If you eat...,I am about to see Kalu
+497,àɟà kɔ́n,aɟakŋ,Since that time,who did you see?
+498,nɛ̀ ŋìcə̀ló,nɛnucilo,he looks good,The nut is good.
+499,ŋùbòrùbúrɛ́,bɾabore,looks good,They will climb down
+500,àɟà kìcəlò,aɟakəcilo,The time is good,The mat/rug is good.
+501,lɔ́mán mnà àɟà kɔ̂ɔ́n nà ká dɛ̀ t̪ówà t̪áníní,lomanmnaajakanakatd̪ət̪ɛwat̪anini,from that day until now,They are eating food and pulling roots now (towards??)
+502,núltúmtánì,nolt̪ɔmt̪anɪ,both of them,both of them are fat
+503,lìcə̀ló álpùrɔ́ òɾà kícə̀lò ŋàmɽàrɛ̀,leceɾʊalpʊrɔorakeʃelomlare,Their skin looks good and healthy,They learned/taught something yesterday (and left)
+504,lìcə̀ló álpùrɔ́ òɾà kícə̀ló ŋàmɽàrɛ̀,iʃilualpʊlooɾakəcilmlare,Their skin looks good and healthy,To scratch the skin is good
+505,òrà kícə̀ló,ɾaɡeʃil,?,The shirt is good.
+506,lìcə̀ló álpùrɔ́ òɾà kícə́ló ŋàmɽàrɛ̀,lest̪ɪlʊalpolɔalakicɪɾomlaɾe,Their skin looks good and healthy,These wild cats are eating a lot
+507,árt̪ɔ́l lə̀kɛ̀lcà àvɟìgɛ̀,art̪ɔllklkarɟɪɡe,Tell them to spread the mat (away),Tell them to tickle Kuku (far)
+508,árt̪ɔ́ló lə̀kɛ̀lcà àvɟìgɛ̀,art̪olulakəlcavd̪iɡe,Tell them to spread the mat (away),Tell them to tickle Kuku (far)
+509,árt̪ɔ́ló lə̀kɛ̀lcà àvɟìgɛ́ t̪ɔ́wə̀nì,art̪olrekeʃeavɟiɡat̪owɔnɪ,Tell them to spread the mat (away) soon,Tell them to spread the mat now (far)
+510,árt̪ɔ́l lə̀kɛ̀lcì àvɟìgɛ̀,iart̪olekəʃiavɟeɡa,Tell them to spread the mat (towards),I am cooking soup for him
+511,árt̪ɔ́ló lə̀kɛ̀lcì àvɟìgɛ̀,art̪lolekəlt̪ɪablɪɡe,Tell them to spread the mat (towards),Tell them to pull me towards
+512,árt̪ɔ́ló lùrì,art̪alonʊrrɪ,Tell them to climb down (away),Tell them to climb down (towards)
+513,áɾt̪ɔ́l lə̀kə̀lcà àvɟìgɛ̂,art̪ollkənsaabɟiɡa,Tell them to spread the mat (towards),Tell them to spread the mat (far)
+514,áɾt̪ɔ́l lə̀kə̀lcì àvɟìgɛ̂,art̪əlakəlʃiabjeɡe,Tell them to spread the mat (away),Tell them to tickle me (far)
+515,d̪úrú ðɛ́rd̪à,d̪ord̪ed̪at̪,Want to dance! (here),Parts of: You are going to cut the rope
+516,áwó t̪ɔ́wə̀nì,aot̪awane,Urinate now!,eat at home now! (far)
+517,àwá t̪ɔ́wə̀nì,awat̪one,Urinate now! (far),Wash at home! (far)
+518,lǎt̪ì t̪ɔ̀wə̀nì,lat̪ɪt̪oni,They are lost now (and left),They are lost now
+519,lát̪ì ùnɛ̀ɾɛ̌,lat̪ɪonare,They were lost yesterday (and left),They were lost yesterday (and left)
+520,ídú t̪ɔ́wə̀nì,hidut̪eoni,Fall now!,hid himself now (far)
+521,ìdɔ́ t̪ɔ́wə̀nì,idot̪əoni,Fall now! (far),I am about to cook now
+522,váɾó t̪ówə̀nì,varot̪one,Escape now!,They are lost now (far)
+523,vàɾá t̪ɔ́wə̀nì,varat̪oni,Escape now! (far),he is about to cut the rope now
+524,kə́lcácí àvɟìgɛ́,klʃatɪjafɟiɡe,Spread the mat now!,Spread the mat at home now!
+525,úrɔ́t̪ɔ́ dùn,orbatodʊ,Climb down at home! (away),Bird nests?
+526,ɔ́ɽɔ́ t̪ɔ́wə̀ní,ɔlrət̪oni,Run now!,Fall now! (far)
+527,ɛ́lá t̪ɔ́wə̀nì,elat̪ane,Arrive now!,Come in! (far)
+528,lɔ́mɔ̀ kárè,lomokarɪ,in the food,The food is inside
+529,jâɽó ðúpà káré kàré,ialoðopakarekarɪ,I put the stick inside the table,I put the stick inside the table
+530,jâɽó ðúpà kárè,ɪjand̪opakarɪ,I put the stick inside the table,"I am about to cook (want to cook, am going to cook)"
+531,jâɽó ðúpǎ kádám kárè,ialoðopakat̪d̪amkari,I put the pen inside the book,I put the pen inside the book
+532,jâɽó ðúpà kádàm,ejaalðopakad̪am,I put the pen inside the book,I am going to see a mat
+533,lùɽìðú t̪ə́màn t̪à,loleðət̪əmant̪a,They returned quickly (here),They will return quickly (here)
+534,là úɽìðì t̪ə̀màn t̪à,lawliðit̪mat̪a,They returned quickly (away),They returned quickly (towards)
+535,árt̪ɔ́l lùɽìðà t̪ə̀màn t̪à,aɾt̪oluɾiðat̪mant̪að,Tell them to return quickly (here),Tell them to return quickly (far)
+536,árt̪ɔ́ ŋúɽìðì t̪ə̀màn t̪à,at̪ooɾiðet̪mat̪ə,Tell him to return quickly (away),Tell him to return quickly (here)
+537,ábá kári,abəkarɪ,inside the cave,s/he will hide
+538,t̪òlé tô káré ké kábá,ʊlit̪ʊkarɪkekava,There is a lion inside the cave,The pot is going to break in it
+539,t̪òlé tô káré ké kábà,t̪olit̪awkaɾkekaba,There is a lion inside the cave,"the lion, who else will see it?"
+540,àpìt̪í lùɽbɔ̀,apitilʊrbɔ,Bring me jujube fruit!,Bring me jujube fruit!
+541,lùɽbí lìcə̀lò,lʊrbileʃelo,The jujube fruit is good,The jujube fruit is good.
+542,àpìt̪í ðɔ̀cɔ̀ ðɛ́ ðɛ́ ŋìðə̀ní t̪áwə̀nì,apit̪iðoʃoðeleŋeðenɪt̪aonɪ,Bring me the basket of rabbits now!,Bring me baskets of food now!
+543,àpìt̪í ðɔ̀cɔ̀ ðɛ́ ŋìðə̀ní t̪áwə̀nì,apɪt̪iðokoðeŋðenit̪aonɪ,Bring me the basket of rabbits now!,Bring me baskets of food now!
+544,àpìt̪í ðɔ̀cɔ̀ ðɛ́ ŋìðə̀ní t̪áwə̀nì,apit̪iðoʃoðŋðinit̪aonɪ,Bring me the basket of rabbits now!,Bring me baskets of food now!
+545,àpìt̪í ðɔ̀cɔ̀ ðɛ́ ŋípíjɔ́ t̪áwə̀nì,apitivəʃɔðɲipit̪aoni,Bring me the basket of mushrooms now!,Bring me jujube fruit now!
+546,àpìt̪í ðɔ̀cɔ̀ ðɛ́ nɔ̀mì,apitivkoðenomi,Bring me the basket of fish!,I brought Kuku's wife (away)
+547,àpìt̪í ðɔ̀cɔ̀ ðɛ́ nɔ̀mì t̪áwə̀nì,apit̪id̪ʊʃoðenomit̪oni,Bring me the basket of fish now!,Bring me baskets of food now!
+548,àpìt̪í ðɔ̀cɔ̀ ðɛ́ ŋìdí t̪áwə̀nì,apit̪iðocoðɛŋidit̪aone,Bring me the basket of coconuts now!,Bring me baskets of food now!
+549,ŋìdí ŋìcə̀lò,nideŋicilo,Doleib fruits are good,The knives are good.
+550,àn kúkù ŋɛ́nɛ̀ pɔ̀n káŋíŋì,jeaŋkokŋenapɔŋkaŋi,it's only Kuku I saw,I showed Kuku's dog to him
+551,áŋú ɔ́ɟɔ̂ŋ,aŋooɟɔŋ,who did you see?,who did you see?
+552,ùɟí kɛ̂nɛ̀ káŋíŋî,uɟikənekaŋɛŋi,one person I saw,who did I see?
+553,ùɟí kɛ̂nɛ̀ kàŋîŋì,uɟikinekaŋeŋɪ,someone saw me,Intended by Kuku
+554,ùɟí kɛ̂nɛ̀ kàŋíŋî,ʊɟiɡenekaŋeŋi,one person I saw,who did I show?
+555,àn kúkù ŋɛ́nɛ̀pɔ́n káŋà t̪ólìɲà,ɛŋkukoŋiəpoŋkaŋat̪olɲa,only Kuku will see the lion,It's even Kuku I saw
+556,àn kúkù ŋɛ́nɛ̀pɔ́n káŋì t̪ólìɲà,əŋkʊkoŋenaponkaŋit̪ʊlɲa,only Kuku saw the lion (and left),It's only Kuku I saw
+557,ɛ́ná ìcə̀lò,ɛnaiclo,hunting is good,The leathers are good.
+558,òðɛ̀ kìcə̀lò,ɔðekicilo,the deer is good,The stones are good.
+559,kúkù kɔ̂dɔ́ ɛ́ŋná jɛ́ kákà,kukʊkod̪oiŋnajekaka,Kuku builds a house for Kaka,Kuku made the boy eat (and left)
+560,kúkù kɔ̂d ɛ́ŋná jɛ́ kákà,kukʊkod̪eɡnajekaka,Kuku builds a house for Kaka,Kuku made Kaka taste (something)
+561,ɛ̀ŋná ìcə̀lò,ɛŋnaicelo,the house is good,The food is good.
+562,kúkù kâŋú kákàŋù,kukukamokaɡm,Kuku will see Kaka (far),Kuku will keep quiet (far)
+563,kúkù kǎŋà kákàŋù,kokʊamakapam,Kuku will see Kaka,Kuku will make Kaka drink (far)
+564,kúkù kàŋú kákàŋù,tʊkʊkamonkwakəvi,Kuku saw Kaka,who saw what?
+565,kúkù káŋì kákàŋù,kokokaŋekavam,Kuku saw Kaka (and left),Kuku will introduce me to you
+566,àn ɔ́ɟɔ́ káɾó t̪á t̪ʊ̀lí tàmə̀ɾðɔ́ ápɾíɲà,ənoɟkarot̪akolit̪abpɾ,who said thet the lion bit the boy?,who did grandpa say the lion bit?
+567,àn ɔ́ɟɔ́ kɛ́ɾðɛ̀ðó t̪á t̪ʊ̀lí tàmə̀ɾðɔ́ ápɾíɲà,ənɔɟokerðot̪akt̪oletamd̪oapɛɲe,who asked if the lion bit the boy?,who did grandpa say the lion bit?
+568,àn ɔ́ɟɔ́ kɛ́ɾðɛ̀ðó t̪á àn ɔ́ndì kámə̀ɾðɔ́ ápɾíɲà,anoɟekeeot̪aanondikamðoapɾeɲa,who asked what bit the boy?,"who else did the boy see, the boy bit?"
+569,àn ɔ́ndì káɾógɛ́ ɔ̀ɟɔ́ t̪á kàmə̀ɾðɔ́ ápɾíɲà,nodekarɡeoɡot̪akamðoapriɲa,what did who say bit the boy?,what did who say bit the boy?
+570,àn t̪ʊ́lí táɾó tɛ́ ɔ̀ɟɔ́ t̪á t̪àmə̀ɾðɔ́ ápɾíɲà,at̪olet̪arot̪eoɟet̪at̪amðɔpɛ,it's the lion that who said bit the boy,Tell him to write a letter now (far)
+571,àn ɔ́ɟɔ́ káɾó gɛ́ káɾó gɛ́ ùɾnɔ̀ t̪á kàmə̀ɾðɔ́ t̪ʊ̀lì,anoɟokarukekarɡeʊrnot̪akamðot̪oli,who did grandpa say that the lion bit?,who did grandfather say repaired it (= CLl the ball)?
+572,t̪ʊ̀lí t̪áɾó tɛ́ ùɾnɔ̀ɔ̌ t̪àmə̀ɾðɔ́ ápɾíɲá t̪ə̀ɽà,t̪olet̪arot̪eʊnot̪amðoabɾeɲat̪rap,the lion that grandpa said bit the boy was big,"the lion, who did grandpa say bit the boy?"
+573,t̪ʊ̀lí t̪áɾó tɛ́ ùɾnɔ̀ t̪àmə̀ɾðɔ́ ápɾíɲá t̪ə̀ɽà,t̪olet̪art̪eʊnot̪amvoaprəɲad̪ra,the lion that grandpa said bit the boy was big,the lion should watch the dog every day
+574,t̪ʊ̀lí t̪ə́ɽá t̪áɾó tɛ́ ùɾnɔ̀ t̪àmə̀ɾðɔ́ ápɾíɲá,t̪olet̪lafalɔteɡʊlnat̪amud̪pe,the lion that grandpa said bit the boy is big,The lion was pulling the sheep towards now.
+575,t̪ʊ̀lí t̪ə́ɽá t̪àɾó tɛ́ ùɾnɔ̀ t̪àmə̀ɾðɔ́ ápɾíɲá,t̪let̪əɾaparot̪eʊnot̪aŋlareɲa,"the big lion, grandpa said bit the boy",the lion did not watch the dog
+576,t̪ʊ̀lí t̪ə́ɽá t̪áɾó tɛ́ ùɾnɔ̀ t̪àmə̀ɾðɔ́ ápɾíɲá,t̪olet̪lat̪art̪eormot̪amraaplɛɲa,the lion grandpa said bit the boy is big,the lion should keep quietly staring at the boy
+577,sɔ̀ɽíŋgɔ́ sə́tàn,soliŋɡosəta,the little donkey is small,alone(far away)
+578,kúkùŋà kákàgɛ̀ lǎŋt̪ɛ̀ nɛ̀ lə̀vɛ̀r,kukmokakrelaŋt̪elvar,Kuku and Kaka saw something in the field (and left),Kuku and Kaka saw each other in the field
+579,kúkùŋà kákàgɛ̀ láŋíðàt̪à nɛ̀ lə̀vɛ̀r,kʊakakavɛlamd̪elatanlvɔ,Kuku and Kaka will see (something) in the field,Kuku and Kaka will see (something) in the field
+580,kúkùŋà kákàgɛ̀ láŋt̪íðì nɛ̀ lə̀vɛ̀r,kupmakakralaŋt̪eðienlval,Kuku and Kaka saw each other OR saw something in the field and left,Kuku and Kaka saw (something) in the field
+581,kúkùŋà kákàgɛ̀ láŋt̪íðà nɛ̀ lə̀vɛ̀r,kukmakakralamt̪eðnlavɔr,Kuku and Kaka will see each other OR see something in the field,Kuku and Kaka saw each other in the field
+582,kúkù kɜ̀ŋcí kákàŋú ŋɛ́nɛ̀,kkantikakneɾa,Kuku showed Kaka a dog,Kuku introduced him to his mom
+583,kúkù kɜ́ŋcì kákàŋú ŋɛ́nɛ̀,kokokancɪkakaoŋene,Kuku showed Kaka a dog (and left),Kuku showed Kaka a dog
+584,kúkù kɜ̂ŋcí kákàŋú ŋɛ́nɛ̀,kukkancikakaŋene,Kuku will show Kaka a dog (far),Kuku gave me the snake
+585,kúkùŋà kákàgɛ̀ lɜ́ŋcíðì ŋɛ́nɛ̀,kupmakakaɡellaniʃiðiŋene,Kuku and Kaka showed (someone) a dog (and left),Kuku and Kaka saw each other (and left)
+586,kúkùŋà kákàgɛ̀ lɜ̀ŋcìðú ŋɛ́nɛ̀,kupmakakaɡelansid̪uŋene,Kuku and Kaka showed (someone) a dog,Kuku and Kaka saw each other (and left)
+587,kúkùŋà kákàgɛ̀ lɛ̂ŋcí ɔ̀ɾà ŋɛ́nɛ̀,kukʊmakakɡelaŋcɪoraɡine,Kuku and Kaka will show each other a dog (far),Kuku and Kaka will show each other a dog (far)
+588,kúkù kɾ̀ŋìt̪ɔ́ kákàŋù,kʊpokɾiit̪okapaŋo,Kuku kept quiet for Kaka,Kuku opened the door at home
+589,kúkù káɾŋít̪ɛ̀ kákàŋù,kokokaɾmetekaɡau,Kuku kept quiet for Kaka (and left),Kuku will introduce me to Kaka
+590,àn ɔ́ndì káɾɔ́gɛ́ ùɾnɔ̀ t̪á kàmə̀ɾðɔ́ ápɾíɲà,əŋəɾəkarormət̪akɛmrðaapɾɪja,what did grandpa say bit the boy?,Which song did grandfather like of the boy's?
+591,t̪ʊ̀lí t̪áɾɔ́t̪ɛ́ ùɾnɔ̀ t̪àmə̀ɾðɔ́ ápɾíɲà tə̀ɽà,t̪let̪arot̪ɛmot̪amðɔapreɲat̪la,the lion grandpa said bit the boy is big,the lion that chased the boy is fast
+592,t̪ʊ̀lí t̪àððɔ́ ápɾíɲà èŋgáð jɛ̀,t̪olet̪aðoapreɲaenaðiɛ,the lion attacked the boy with its teeth,lion was instructed by boy boy
+593,t̪ʊ̀lí t̪àððɔ́ ápɾíɲà èŋgáð jɛ́ ùnɛ̀ɾɛ̀,t̪orit̪aðoapɾuɲaeŋaðieʊnere,the lion attacked the boy with its teeth yesterday,the lion bit the boy yesterday (and left)
+594,t̪ʊ̀lí t̪àððàt̪ɔ́ ápɾíɲà ðùɽì nd̪ɾì,t̪olet̪aðət̪ɔapreɲbʊlind̪ɪ,the lion attacked the boy next to the tree,the lion bit the boy in the field
+595,àn âw káɾɔ́gɛ́ ùɾnɔ̀ kàððɔ́gɛ́ t̪ùlí àpɾíɲà,aokarʊɡeʊrnɔkaðoɡet̪oliapeɲa,how did grandpa say the lion attacked the boy?,what did grandfather say bit the boy?
+596,àn âw káɾɔ́gɛ́ ùɾnɔ̀ kágɛ́ t̪ùlí àððà àpɾíɲà,ənakarʊɡenɔkɡet̪ʊliaaplɛɲa,how did grandpa say the lion will attack the boy?,what did grandfather say bit the boy?
+597,àn âw káɾɔ́gɛ́ ùɾnɔ̀ kágɛ́ kágɛ́ t̪ùlí àððà àpɾíɲà,maokarɡeʊrnɡavekvet̪ʊlilapɛɲ,how did grandpa say the lion will attack the boy?,how did grandpa say the lion attacked the boy?
+598,àn ndɔ́n káɾɔ́gɛ́ ùɾnɔ̀ kàmə̀ɾðɔ́gɛ́ t̪ùlí àpɾíɲà,ənd̪onkarveʊrnɔkamvoɡet̪oliapɾeɲa,when did grandpa say the lion bit the boy?,it's in that field that grandpa said the lion attacked the boy
+599,àn ndɔ́n káɾɔ́gɛ́ ùɾnɔ̀ kágɛ́ t̪ùlí àððà àpɾíɲà,endoŋkaɾvɾnokaɡepeɾeaðəlapliɲa,when did grandpa say the lion will attack the boy?,it's in the field that grandpa said the lion bit
+600,àn ŋgá káɾɔ́gɛ́ ùɾnɔ̀ kàmə̀ɾðɔ́t̪ɔ́l t̪ùlí àpɾíɲà,aŋɡaklɡoɾnokamrt̪oɾt̪oleapɾia,where did grandpa say the lion bit the boy?,Where did the grandfather say the lion bit the boy?
+601,àn ŋgá káɾɔ́gɛ́ ùɾnɔ̀ kàððàt̪ɔ́l t̪ùlí àpɾíɲà,ənɡakaloɡɛʊrnɔkaðat̪əlt̪oliapɾɛɲa,where did grandpa say the lion attacked the boy?,it's who grandpa said the lion attacked the boy
+602,àn ŋgá káɾɔ́gɛ́ ùɾnɔ̀ t̪á kàððàt̪ɔ́l t̪ùlí àpɾíɲà,ənɡakarɡonət̪akaðat̪olt̪liapɾɛɲa,where did grandpa say the lion attacked the boy?,how did grandpa say the lion bit the boy?
+603,àn ŋgá káɾɔ́gɛ́ ùɾnɔ̀ kál t̪ùlí àððàt̪à àpɾíɲà,aŋɡakalbeosmkalt̪oleaðapaapoina,where did grandpa say the lion will attack the boy?,Where did the boy remember the lion chased the dog (away)?
+604,àn únɛ́ɾɛ́ káɾɔ́gɛ́ ùɾnɔ̀ tá kàððɔ́gɛ́ t̪ùlí àpɾíɲà,anʊnerekaroɡeʊnat̪akaðavt̪oliat̪weɲe,when did grandpa say the lion attacked the boy?,it's yesterday that grandpa said the lion attacked the boy
+605,kúkù kápɛ̀ ìndɔ̀,ʔokɔkapeɪdɔ,Kuku beat the drum (and left),Kuku will bring (something) tomorrow
+606,kúkù kə̀pìt̪ɔ́ kákàŋú índɔ̀,kukpit̪kakamuindo,Kuku beat the drum for Kaka,Kuku will beat Kakamuindo (far)
+607,kúkù kápít̪ɛ̀ kákàŋú índɔ̀,okokapit̪ekaɡamueŋd̪o,Kuku beat the drum for Kaka (and left),Kuku will bring Kaka (something) tomorrow
+608,kúkù kǎpít̪ɔ̀ kákàŋú índɔ̀,kukukapit̪aɡavawed̪o,Kuku will beat the drum for Kaka,Kuku will take (something) away tomorrow
+609,kúkù kâpìt̪ɔ́ kákàŋú índɔ̀,kukokapit̪okakamʊilo,Kuku will beat the drum for Kaka (far),Kuku will bring Kaka to Kuku
+610,kúkù kə̀pɜ̀ìt̪ɔ́ kákàŋú índɔ̀,kokwokpat̪ɔkaðauiŋd̪o,Kuku beat the drum instead of Kaka,Kuku will drink water in the field
+611,kúkù kápɜ́ìt̪ɛ̀ kákàŋú índɔ̀,ukokapat̪ekaɡaoed̪ɔ,Kuku beat the drum instead of Kaka (and left),Kuku will beat Kaka in the field
+612,kúkù kâpɜ̀ìt̪ɔ́ kákàŋú índɔ̀,kʊkokapat̪əkakaŋoindo,Kuku will beat the drum instead of Kaka (far),Kuku will take Kaka (far)
+613,kúkù kǎpɜ́ìt̪ɔ̀ kákàŋú índɔ̀,kukkapait̪ekakamuend̪o,Kuku will beat the drum instead of Kaka,Kuku will drink water in the field (far)
+614,kúkù ŋgǎpít̪ìt̪ɔ̀ kákàŋú índɔ̀,kʊkŋɡapit̪ɪt̪aɡakamʊedo,Kuku will beat the drum instead of Kaka,Kuku hunts for Kaka
+615,kúkù kə̀pìt̪ìt̪ɔ́ kákàŋú índɔ̀,kukokɛpit̪itakaɡamuendo,Kuku beat the drum instead of Kaka,Kuku took Kaka's food
+616,kúkù kápít̪ìt̪ɛ̀ kákàŋú índɔ̀,kokokapɪd̪ɪt̪ɛkaɡamoelo,Kuku beat the drum instead of Kaka (and left),Kuku made Kaka braid (something)
+617,kúkù kâpìt̪ìt̪ɔ́ kákàŋú índɔ̀,kʊkokapit̪ɪt̪olkakamind̪o,Kuku will beat the drum for Kaka (far),Kuku will take (something) away from Kaka
+618,kúkù ŋgâpìt̪ìt̪ɔ́ kákàŋú índɔ̀,kukobapid̪ɪt̪əɡaʔamoendof,Kuku will beat the drum for Kaka (far),Kuku will make Kaka taste the soup
+619,kúkù kǎpíðɔ̀t̪ɔ̀ ǹ lə̀vɛ̀r,kukokapeðat̪onlavaɾ,Kuku will beat in the field,Kuku will beat in the field (far)
+620,àpɾì jɜ̀ŋcí ŋɛ́nɛ̀,aprijanʃiŋene,the boy showed a dog,the boy showed me a dog
+621,àpɾì jɜ́ŋcɜ́cì ŋɛ́nɛ̀ nɛ̀ lə̀vɛ̀r,apɾejaŋkɛkiŋinənləval,the boy showed a dog in the field (and left),The boy showed me a dog
+622,kúkù kɜ̀ŋcìjí ápɾíɲá ŋɛ́nɛ̀,ukokamciaproɲaŋin,Kuku made the boy show a dog,Kuku gave the boy to the dog
+623,kúkù kɜ́ŋcíjì ápɾíɲá ŋɛ́nɛ̀,kokokancɪapne,Kuku made the boy show a dog (and left),Kuku will make the boy sleep (far)
+624,kúkù kɜ̌ŋcíjɔ̀ ápɾíɲá ŋɛ́nɛ̀,kokokaŋt̪ipr,Kuku will make the boy show a dog,Kuku made the boy sleep (and left)
+625,kúkù kɜ̂ŋcìjí ápɾíɲá ŋɛ́nɛ̀,kokokaŋtiafiee,Kuku will make the boy show a dog (far),Kuku will introduce me to you
+626,kúkù kɜ̀ŋcìjìt̪ɔ́ ápɾíɲá ŋɛ́nɛ̀ nɛ̀ lə̀vɛ̀r,kokokanʃɪt̪ɔaprɪɲaŋɡɪnellavar,Kuku made the boy show a dog in the field,Kuku made the boy eat in the field (and left)
+627,kúkù kɜ̀ŋcìjìðɔ̀t̪ɔ́ ápɾíɲá ŋɛ́nɛ̀ nɛ̀ lə̀vɛ̀r,kʊkʊŋkaŋɟɪðt̪oapɾenioðeloɡaða,Kuku made the boy show a dog in the field,Kuku will see a scorpion in the field
+628,kúkù kɜ̀ŋcìjìðɔ̀t̪ɔ́,kwakokant̪iðət̪o,Kuku made (the boy) show (a dog),Kuku saw Ngalo in the field
+629,kúkù kɜ̀ŋcìjìt̪ɔ́ ápɾíɲá kákàŋú ŋɛ́nɛ̀ nɛ̀ lə̀vɛ̀r,kokokacitapɲakakauŋŋnellver,Kuku made the boy show Kaka a dog in the field,Kuku gave Kaka a dog in the field
+630,kúkù kɜ̀ŋcìðìjìt̪ɔ́ ápɾíɲá kákàŋú ŋɛ́nɛ̀ nɛ̀ lə̀vɛ̀r,koskonit̪ɪvɪt̪oapɾenakakaumjnedloɡal,Kuku made the boy show Kaka a dog in the field,Kuku opened the door against the wish of Kaka
+631,kúkù kɜ̀ŋcíŋìǐ ŋûŋ,kukokantiŋiŋɡo,Kuku introduced me to him,Kuku will introduce me to him
+632,kúkù kɜ̀ŋcíŋì ŋûŋ,ʔopukɛtjenɪŋ,Kuku introduced me to him,Kuku came out of the house
+633,kúkù kɜ̀ŋcíŋì ŋâŋ̌,kwokokaltieŋena,Kuku introduced me to you,Kuku will show me the dog
+634,kúkù kɜ̀ŋcíŋì ŋâŋ,kukukanciniinam,Kuku introduced me to you,Kuku showed me the snake
+635,kúkù kɜ̀ŋcáŋà ŋîŋ,kukukacaŋəin,Kuku introduced you to me,Kuku will show me a dog
+636,lɛ́ŋgɛ́n k ápɾì,lɛŋɡenkapri,the boy's mom,I visited the boy
+637,lɛ́ŋgɛ́n k ápɾíŋà,lɛŋɡənkapredmə,the boy's mom,his mother carried the baby
+638,kúkù kàpɔ́ ŋɔ́mɔ̀,ʔukʊkapɔnmo,kuku brought food,Kuku will bring the food
+639,kúkù kápɛ̀ ŋɔ̀mɔ̀,ʔoʔokapelb,Kuku took food away,Kuku will make the boy return
+640,kúkù kâpɔ́ ŋɔ́mɔ̀,kukukapama,Kuku will bring food,Kuku will make the boy sleep
+641,kúkù kǎpà ŋɔ̀mɔ̀,kukokapaŋom,Kuku will take food away,Kuku will eat food
+642,kúkù kàpàt̪ɔ́ ŋɔ́mɔ́ dùn,kokukapat̪aamodʊn,Kuku brought food home,Kuku will take food home (far)
+643,kúkù kápát̪ɛ̀ ŋɔ̀mɔ̀ dùn,kukokapat̪emomod̪ʊn,Kuku took food home,Kuku took food home (far)
+644,kúkù kâpàt̪ɔ́ ŋɔ́mɔ̀ dùn,kuɡokapat̪aðomamodʊn,Kuku will bring food home,Kuku will search in the field (far)
+645,kúkù kǎpát̪à ŋɔ̀mɔ̀ dùn,kukukapasamooð,Kuku will take food home,Kuku will keep quiet (far)
+646,kúkù kàpìt̪ɔ́ kákàŋú ŋɔ́mɔ̀,kokokapit̪okakamʊŋomo,Kuku brought food for Kaka,Kuku will bring Kuku to Kuku
+647,kúkù kápít̪ɛ̀ kákàŋú ŋɔ́mɔ̀,ʔukukapitekakainɛ,Kuku took food for Kaka,Kuku took Kaka (something) away
+648,kúkù ŋgápít̪ɛ̀ kákàŋú ŋɔ́mɔ̀,kukoŋɡapitekat̪a,Kuku took food for Kaka,Kuku will bring you the soup
+649,kúkù kâpìt̪ɔ́ kákàŋú ŋɔ́mɔ̀,kukʊɾkapit̪oðkakaʊnemo,Kuku will bring food for Kaka,Kuku searched for Kaka in the field
+650,kúkù ŋgâpìt̪ɔ́ kákàŋú ŋɔ́mɔ̀,kʊkuɡapit̪oðakaono,Kuku will bring food for Kaka,Kuku will bring (something) tomorrow
+651,kúkù kǎpít̪ɔ̀ kákàŋú ŋɔ́mɔ̀,kokokapɪt̪kakaʊuɲe,Kuku will take food for Kaka,Kuku brought Kaka (something) yesterday
+652,kúkù kùtìðí kákàŋù,kukukutidikakami,Kuku called Kaka,Kuku made Kaka braid
+653,kúkù kàkáɾcàcì ŋɔ̀mɔ̀ nɛ̀ lə̀vɛ̀r,kʊkukakapcacimamalra,Kuku searched for food in the field (and left),Kuku will show me the snake
+654,kúkù kákàɾcàcí ŋɔ́mɔ̀ nɛ̀ lə̀vɛ̀r,kʊkʊoɡaɡaftaʃimamwanbava,Kuku will search for food in the field (far),Kuku will make the boy drink water tomorrow
+655,kúkù kákáɾcácà ŋɔ̀mɔ̀ nɛ̀ lə̀vɛ̀r,kukulukakartɛcŋomɔlevɛ,Kuku will search for food in the field,Kuku and Kaka showed each other a dog (and left)
+656,kúkù kàkáɾcìðì ùnɛ̀ɾɛ̀,kubokasartɛliʊnara,Kuku searched yesterday (and left),Kuku will search in the field (far)
+657,kúkù kàkáɾcíðàt̪ɛ̀ nɛ̀ lə̀vɛ̀r,kukokakasceðat̪enoɡar,Kuku searched in the field (and left),Kuku will search tomorrow (far)
+658,kúkù kákáɾcíðàt̪à nɛ̀ lə̀vɛ̀r,kʊkukakartevat̪ad̪,Kuku will search in the field,Kuku will keep quiet for Kaka
+659,kúkù kákàɾcìðàt̪ɔ́ nɛ̀ lə̀vɛ̀r,kukkakarciðat̪onlɡa,Kuku will search in the field (far),Kuku will search in the field (far)
+660,ùɟí kɔ́bə̀cɔ̀,ʊjekobɔɟo,white person,Who did you meet?
+661,àn ɔ́ndì kə́ŋàcí kúkù àpɾíɲá ùnɛ̀ɾɛ̀,ənodikɛŋaʃikʊkuapɾɛɲaʊnare,what did Kuku give the boy yesterday?,what did Kuku give the boy?
+662,ùcùl kìcɛ̀lù,ʊcunkeceɔ,the stranger is good,Kuku was given to him by Kuku
+663,ùcùl káŋìŋì,ucʊlkaŋeni,the stranger saw me,Kuku saw it (sheep)
+664,àn ɔ́ɟɔ́ kɛ́lɛ̀ŋìt̪ɔ́ gɛ́ ùɾnɔ̀ ðɛ̀ɲú t̪á kàmə̀ɾðɔ́ t̪ùlì,lmɛɟakɛlenit̪aðeʊnɔðiɲot̪akkapoli,who does grandfather know the lion bit?,They went to take care of Kuku's animals tomorrow
+665,àn ɔ́ɟɔ́ kɛ́lɛ̀ŋìt̪á gɛ́ ðɛ̀ɲú t̪á kàmə̀ɾðɔ́ t̪ùlì,anoɟokeleŋit̪aɡeðiɲut̪akomroðoli,who do you know that the lion bit?,Who did I know said that Kuku ate it (lion)?
+666,ùɾnɔ̀ kɛ̀lɛ̀ŋìt̪ɔ́ t̪á kúkù kàɾɔ́ t̪ùlí t̪àmə̀ɾðɔ́ ápɾíɲá ùnɛ̀ɾɛ̀,unɔklaŋet̪at̪akʊɡoɡarot̪olet̪amlapɲanere,grandfather knew that Kuku said the lion bit the boy yesterday,grandpa said that Kuku broke the pot with the lion
+667,kúkù kàɾɔ́ t̪ùlí t̪àmə̀ɾðɔ́ ápɾíɲá ùnɛ̀ɾɛ̀,kkarɔt̪olet̪amrðɔapreɲanere,Kuku said the lion bit the boy yesterday,He felt the lion bit the boy yesterday (and left)
+668,ùɾnɔ̀ kɛ̀lɛ̀ŋìt̪ɔ́ kúkù kàɾɔ́ t̪á t̪ùlí t̪àmə̀ɾðɔ́ ápɾíɲà,ʊnokleit̪okʊkkarot̪apet̪,grandfather knew that Kuku said the lion bit the boy,Where did Kuku watch the lion?
+669,ùɾnɔ̀ kɛ̀lɛ̀ŋìt̪ɔ́ ðɛ́ɲú kúkù kàɾɔ́ t̪á t̪ùlí t̪àmə̀ɾðɔ́ ápɾíɲà,ʊnoɡeleŋit̪avnɪkupoɡarot̪apoviðlapen,grandfather knew that Kuku said the lion bit the boy yesterday,grandfather said that Kuku fixed it (=CLl the ball)
+670,àn ɔ́ɟɔ́ kɛ̀lɛ̀ŋìt̪ɔ́ ùɾnɔ̀ kàɾɔ́ gɛ́ kúkù t̪á kàmə̀ɾðɔ́ t̪ùlì,ənoɟoklanit̪onokaroekʊkʊt̪akamðot̪uli,who did grandfather know that Kuku said the lion bit?,who did grandfather say Kuku ate it (sheep)?
+671,àn ɔ́ɟɔ́ŋá lɛ̀lɛ̀ŋìt̪ɔ́l ùɾnɔ̀ɔ̌ làɾɔ́ lɛ́ kúkù t̪á làmə̀ɾðɔ́l t̪ùlì,ənjoalɛlnt̪olʊrnolalekʊkʊt̪alamoɾðəlt̪oli,who all did grandfather know that Kuku said the lion bit?,who all did grandfather say that Kuku fixed it (the ball)?
+672,àn ɔ́ɟɔ́ŋá lɛ̀lɛ̀ŋìt̪ɔ́l ùɾnɔ̀ làɾɔ́ lɛ́ kúkù t̪á làmə̀ɾðɔ́l t̪ùlì,anojaalɛlŋet̪ɔlʊrnolarolekʊkʊt̪alamrðolt̪ole,who all did grandfather know that Kuku said the lion bit?,Who did grandfather like for the song they sang?
+673,kúkù ŋgàɾìðù,ukʊɡariðo,Kuku broke (something),Kuku broke (it)
+674,kúkù kákə́cì ŋɔ̀mɔ̀,kɔkakacinomɔ,Kuku took food away (from here) ,Kaka showed me the snake
+675,kúkù kákɔ́cɔ̀ ŋɔ̀mɔ̀,kʊkʊkakocomɔ,Kuku will take the food away (far),Kuku will come over
+676,kúkù kákə̀cí ŋɔ́mɔ̀,kokkakaciŋamɔ,Kuku will take food away,Kuku will show me the snake
+677,kúkù kák kàkə̀cí ŋɔ́mɔ̀,pʊkakkaɡaʃiŋomu,Kuku will take food away,Kuku will show me something
+678,kúkù kàkɛ́cì ŋɔ̀mɔ̀,ukukakecimomo,Kuku took food (from here),Kuku gave me the snake
+679,kúkù kákɛ́cɛ́cì ŋɔ̀mɔ̀ dùn,kukukakececinomodʊ,Kuku took food from home,Kuku gave me the snake
+680,kúkù kàkɛ́cɛ́cì ŋɔ̀mɔ̀ dùn,kokookakacaʃimomodu,Kuku took food from home,Kuku will show me a dress
+681,kàkɛ́cɛ́cì,kakɛceci,(Kuku) took food (from  home),The shirt is good.
+682,kúkù kə̀kə̀cɛ̀cí ŋɔ́mɔ̀ dùn,kukkakacacɪamoro,Kuku took food from home (far),Kuku will make the boy return (something)
+683,kúkù kɛ̀kə̀cɛ̀cí ŋɔ́mɔ̀ dùn,kekaceciməmo,Kuku took food from home (far),Take the food from the table now!
+684,kúkù kákɔ́cɔ̀cɔ̀ ŋɔ̀mɔ̀ dùn,ukakatmododu,Kuku will take food from home,Kuku will bring (something) tomorrow
+685,kúkù kákə̀cɛ̀cí ŋɔ́mɔ̀ dùn,kʊkkakacaʃiŋomuvu,Kuku will take food from home (far),Kuku will show me the soup
+686,kúkù kákɛ̀cɛ̀cí ŋɔ́mɔ̀ dùn,kukukaketeʃinamodun,Kuku will take food from home (far),Kuku introduced his mom to him
+687,kúkù ŋgə̀cɛ̀cí,ʊŋɡaje,"Kuku took (food home, far)",The hare is hiding
+688,kúkù kə̀gɛ̀cìðù,kukokadetiðu,Kuku took (something) away (far),Kuku will call (far)
+689,kúkù kə̀bùlìjɛ̀cí ŋálóŋ nɛ̀ lə̀vɛ̀r,kʊkbolɪeʃɪmaloŋlvar,Kuku wrestled Ngalo in the field,Kuku will search in the field (far)
+690,kúkù kàbúlíjɛ̀cì ŋàlóŋ nɛ̀ lə̀vɛ̀r,kukokabolicɪmadolavar,Kuku wrestled Ngalo in the field (and left),Kuku will break the pot in the field
+691,kúkù kàgít̪ɛ̀ kákàŋú áwùɾ,kukkaɡit̪ekak,Kuku opened the door for Kaka (and left),Kuku drank water in the field
+692,kúkù kágít̪ɔ̀ kákàŋú áwùɾ,kʊkʊkaɡɪt̪okakamuao,Kuku will open the door for Kaka (far),Kuku opened the door at home
+693,kə̀t̪ɔ̀ðɔ̀t̪ɔ́ kə̀t̪ɔ̀ðɔ̀t̪ɔ́,t̪aðad̪opðat̪o,(Kuku) drank (water in the field),The sheep will pull him (boy) here tomorrow
+694,kúkù kə̀t̪ìjí ápɾíɲá ŋávɛ̀,kukokd̪iapleɲamavɛ,Kuku made the boy drink water,Kuku will pull the boy (towards)
+695,kúkù kɛ̀t̪ìjí ápɾíɲá ŋávɛ̀,ukoket̪iapɾeɲonave,Kuku made the boy drink water,Kuku hunts in the field (far)
+696,kúkù kàt̪íjì àpɾíɲá ŋávɛ̀,ʔoʔoʔatiapɛnjɛvɛs,Kuku made the boy drink water (and left),Kuku will make the boy eat meat
+697,kúkù kát̪íjɔ̀ àpɾíɲá ŋávɛ̀,kokkat̪iajaŋɡe,Kuku will make the boy drink water,Kuku will make the boy eat meat (far)
+698,kúkù kát̪ìjí ápɾíɲá ŋávɛ̀,ʔukukatiafoɲeaɡɛ,Kuku will make the boy drink water (far),Kuku will open the door for Nga
+699,kúkù ŋgɔ̀t̪ìnìjí kákàŋú íɾò,kʊkʊŋɡot̪enɪekat̪amro,Kuku made Kaka braid her hair,Kuku hunts for his wife (far)
+700,kúkù ŋgɔ̀t̪ìnìjí kákàŋú íɾó íjùn,kukompot̪ənikakamnɪrɔjun,Kuku made Kaka braid his/her hair,Kuku will beat Kaka in the field
+701,kúkù kàgɔ́t̪íjì kákàŋú íɾò,ɡukaɡotɪkakaʊirɔ,Kuku made Kaka braid someone's hair (and left),Kuku will call Kaka (far)
+702,kúkù kɔ̀tɛ̀cí kákàŋú dùn,kuɡokutəʃikakamudo,Kuku called Kaka at home,Kuku opened the door for Kaka
+703,kúkù kàðɛ́ðì ánù,kʊrokaðeðeano,"Kuku chopped (something, and left)",Grandfather chopped the meat up completely
+704,káðɛ́ðà káðɛ́ðà,kaveðakəveða,Kuku will chop...chop (something),s/he is about to cut the rope
+705,kúkù kɛ̀t̪ə̀t̪ɔ́,kukuket̪ət̪ɔ,Kuku drank (in the field),Kuku fell at home
+706,kɛ̀t̪ɔ̀t̪ɔ́,ket̪ot̪o,(Kuku) drank (in the field),they braided each other's hair
+707,kúkù kɛ̀t̪ɔ̀t̪ɔ́,kukokeðot̪ɔ,Kuku drank (in the field),Kuku came out of the house
+708,kúkù kát̪ɔ̀t̪ɔ́,kʊɡokat̪at̪o,Kuku will drink (in the field) (far),Kuku will drink (far)
+709,kúkù kápà índɔ̀,kʊkukapando,Kuku will take a drum,Kuku will beat (something)
+710,kúkù kápát̪à kákàŋú índɔ̀,kukukapat̪akakamuindo,Kuku will take Kaka's drum,Kuku will beat Kaka in the field
+711,kúkù kápít̪ɔ̀ kákàŋú índɔ̀,kʊkkapɪt̪əkakamɛnd̪o,Kuku will beat a drum for Kaka,Kuku will drink water in the field
+712,kúkù kápít̪ɔ̀ kákàŋú índɔ̀ɔ̌,kukukapɪtəkakamɛndo,Kuku will take a drum for Kaka,Kuku will show Kaka to Kuku
+713,kúkù kə̀t̪ìjí ápɾíɲà,kukokt̪iaprea,Kuku will make the boy drink,Kuku drank water
+714,kúkù kɛ̀t̪ìjí ápɾíɲà,uʔoʔɛtiapɛjɛ,Kuku will make the boy drink,Kuku made the boy eat (and left)
+715,kúkù kə̀t̪ìjé ápɾíɲà,kukokɛt̪ieapreɲa,Kuku will make the boy get lost,Kuku opened the door at home
+716,kə̀t̪ìjí kɛ̀t̪ìjí,kt̪ikat̪ie,"made drink, made drink",Parts of: Kuku will eat food (far)
+717,kúkù kɛ̀t̪ìjé kɛ̀t̪ìjé,kokokat̪iekat̪ie,"Kuku made get lost, made get lost",Kuku brought (something) yesterday
+718,kúkù kàt̪íjè àpɾíɲà,kukukat̪eaprɛja,Kuku made the boy get lost (and left),Kuku will make the boy eat food
+719,kúkù kàt̪íjì àpɾíɲà,kukukatiapreɲa,Kuku made the boy drink (and left),Kuku will show the boy to the boy
+720,kúkù kát̪íjà àpɾíɲà,kukukat̪ɪafria,Kuku will make the boy get lost,Kuku will drink water (far)
+721,kúkù kát̪íjɔ̀ àpɾíɲà,kukokat̪ɪoaprejə,Kuku will make the boy drink,Kuku will make the boy return
+722,kúkù kát̪ìjé ápɾíɲà,kukukatiaplɛjə,Kuku will make the boy get lost (far),Kuku will make the boy return
+723,kúkù kát̪ìjí ápɾíɲà,kukokatiaprɛjɛ,Kuku will make the boy drink (far),Kuku took (something) away
+724,ùɾnɔ̀ kɛ̀lɛ̀ŋìt̪ɔ́ ðɛ̀ɲú t̪á t̪ʊ̀lí t̪àmə̀ɾðɔ́ ŋɛ́nɛ̀,ʊrnɔklanet̪oðeɲot̪apolet̪amrvanɪne,grandpa knew the lion bit the dog,The grandchildren were watching the lion now
+725,ðə́pɔ́ ðə̀píŋí ápɾíɲá ðìcɔ̀,vpɔripiŋiapriɲad̪ɪco,my beating of the boy is bad,The boy who chased the dog is bad
+726,ðə́pínɔ́ ðìcɔ̀,ðəpɪnaðəɟo,getting beaten is bad,boy will eat meat
+727,ðə́pɔ́ ðìcɔ̀,vutɔðiɟɔ,beating is bad,To dance is good
+728,ðə́píðɔ́ ðìcɔ̀,ðəpilɔli,beating someone/fighting is bad,the bee bites
+729,àɾò kìcə̀lù,kciro,his sibling is good,put on the dress!
+730,ɔ̀ɾà kìcə̀lù,araketil,a sibling is good,The stick is good.
+731,ɔ̀ɾàí kícə̀lù,raeŋɡitɪno,your/yall's brother is good,Pour the water into the well
+732,ɔ̀ɾàlí kícə̀lù,ɔlalekiciro,our (dual) brother is goodff,The medicine is good.
+733,kúkù kákáɾìðàǎ,kʊkʊkaɡariɡa,Kuku will break something,Kuku will break (something)
+734,kúkù gákáɾìðàǎ,kukoɡakariða,Kuku will break something,Kuku will make the person break (something)
+735,kúkù kɛ̀mìɲɔ̀,ʔuʔooʔɛmɲɔ,Kuku came out,Kuku will taste the soup
+736,kúkù kɛ̀ìdù,kukokeðo,Kuku fell,Kuku will make the boy sleep
+737,kúkù kɛ̀ìdú tə́màn,kokokedt̪ma,Kuku fell quickly,Kuku kept quiet (and left)
+738,kúkù kàídì tə̀màn,kokokaɾit̪ma,Kuku fell quickly (and left),Kuku kept quiet (and left)
+739,àpɾí jɛ̀ìdìjé kúkùŋù,aprɛelieʔoʔom,the boy made Kuku fall,the boy was shown to Kuku
+740,àpɾí jàídíjì kúkùŋù,aprɛjɛilieʔokɔm,the boy made Kuku fall (and left),The boy called Kuku
+741,àpɾí jáídìjɔ̀ kúkùŋù,apiiaedeɔʔuʔʊm,the boy will make Kuku fall,The sheep will give Kuku food
+742,àpɾí jáìdìjé kúkùŋù,apɾejaelikoʔu,the boy will make Kuku fall (far),the boy will be shown to Kuku (far)
+743,kúkù kàútíðìjì àpɾíɲá lɛ́ŋgɛ̀n,kukuɡotəviɛfɛlɪŋɪn,Kuku made the boy call his mom (and left),Kuku made the boy eat (something)
+744,kúkù káútìðìjɔ̀ àpɾíɲá lɛ́ŋgɛ̀n,kukokatiðɪpɛɲɛlɪŋɡən,Kuku will make the boy  call his mom,Kuku hunts in the field
+745,kúkù káùtìðìjí àpɾíɲá lɛ́ŋgɛ̀n,kukokatiɾiakŋanɛɡen,Kuku will make the boy call his mom (far),Kuku will show me a dog
+746,kúkù kùɽcìjí ápɾíɲà,kokokorciapreɲa,Kuku made the boy jump,Kuku showed the boy to the boy
+747,kúkù kàúɽcíjì àpɾíɲà,kʊkwkalciapej,Kuku made the boy jump (and left),Kuku will taste the soup
+748,kúkù káúɽcìjɔ̀ àpɾíɲà,kokokstaprɪjə,Kuku will make the boy jump,Kuku introduced me to him
+749,kúkù káùɽcìjí ápɾíɲà,kukokaɾciapeɲa,Kuku will make the boy jump (far),Kuku gave the boy the bowl
+750,kúkù kùɽðìjí ápɾíɲ,kukuvkoðiapreə,Kuku made the boy return,Kuku opened the door with a stick
+751,kúkù kàúɽðíjì àpɾíɲà,kokokarðɪjapoja,Kuku made the boy return (and left),Kuku will make the boy sleep (far)
+752,kúkù kàúɽðìjì àpɾíɲà,ʊskɾðɪip,Kuku made the boy return (and left),The ostrich is good
+753,kúkù káùɽìðìjí ápɾíɲà,kukaɾðeiapɾoina,Kuku will make the boy return (far),Kuku took the boy (and left)
+754,kúkù kìjìnìjí ápɾíɲà,kukokieni,Kuku made the boy eat,Kuku was lost
+755,kúkù kìjjí,ʔuʔokie,Kuku fed,Kuku is about to eat food
+756,kúkù kìjjí ápɾíɲá ŋɔ̀mɔ̀,ʔopoʔiiapɪɛŋɔm,Kuku fed the boy food,Kuku will make the boy return
+757,kúkù kìjìnìjí ápɾíɲá ŋɔ̀mɔ̀,kʊkokiniapriɛŋom,Kuku made the boy eat food,Kuku made the boy sleep
+758,kúkù kǎjjì àpɾíɲá ŋɔ̀mɔ̀,ʔoʔokaiapɔvjɛm,Kuku fed the boy food (and left),Kuku will make the boy eat food
+759,kúkù kǎjɛ̌,kukukaje,Kuku ate...,Kuku is about to eat the food
+760,kúkù kâjjí ápɾíɲá ŋɔ̀mɔ̀,ʔoʔokajeafiamdm,Kuku fed the boy food,Kuku will make the boy eat food
+761,kúkù kùrìjí ápɾíɲà,kokokoriaprɛa,Kuku made the boy climb down,Kuku made the boy break a stick
+762,kúkù kàúríjì àpɾíɲà,kokokarɪapen,Kuku made the boy climb down (far),Kuku will make the boy break a stick
+763,kúkù káúrìjɔ̀ àpɾíɲà,kokokrɪoapɾia,Kuku will make the boy climb down,Kuku made the boy throw the stick
+764,kúkù káùrìjí ápɾíɲà,kukokarɪapeɲa,Kuku will make the boy climb down (far),Kuku will make the boy break a stick (far)
+765,kúkù kùtùðìjí ápɾíɲà,kokokutuðiapoɲa,Kuku made the boy get up,Kuku hunts (far)
+766,kúkù kùtìðìjí ápɾíɲà,okokotiðiakane,Kuku made the boy get up,Kuku will chop something (far)
+767,kùtìðìjí kùtìðìjí,kotiðijikutiðije,made get up... made get up,Kuku made the boy sleep (and left)
+768,kúkù kàtúðìjì ápɾíɲà,kubokatoðiapɛɲɛ,Kuku made the boy get up (and left),Kuku will make the boy return (far)
+769,kúkù kùtòðò,kokʊkʊtoðo,Kuku got up,Kuku will chop meat
+770,kúkù kàtóðì,kukokatoði,Kuku got up (and left),Kuku will make the boy return
+771,kúkù kàtúðìjìǐ kúkù kàtúðìjìǐ,kukukatoðikokokatoði,Kuku made get up...Kuku made get up,Kuku will introduce Kuku to you
+772,kúkù kátúðìjɔ̀ àpɾíɲà,kukukatʊðɪoapreɲə,Kuku will make the boy get up,Kuku opened the door for Kaka
+773,kúkù kátúðìjɔ̀ àpɾíɲà,kukkatʊðɪoapɾeɲa,Kuku will make the boy get up,Kuku opened the door for Kaka
+774,kúkù kátóðà,kukʊkatrðə,Kuku will get up,Kuku will keep quiet (far)
+775,kúkù kátúðà,ʔukokato,Kuku will get up,Kuku will chop (something)
+776,kúkù kátùðìjí ápɾíɲà,katiapena,Kuku will make the boy get up (far),Kalu is nice
+777,kúkù kátòðò,kukokatoðo,Kuku will get up,Kuku will chop something
+778,kúkù ŋ̀gàɾcí ápɾíɲà,kukuɡarci,Kuku looked for the boy,Kuku will break (something)
+779,àpɾí jǎŋcìnɛ̀ kúkùŋú,aprejamtinekokou,the boy was shown to Kuku (and left),the boy was shown to Kuku by Kuku
+780,kúkù kàŋcìnìjí ápɾíɲà,kokokamciniapreɲa,Kuku was shown to the boy,Kuku showed the boy to the boy
+781,ɛ̀rə̀mt̪ɛ́j kìcə̀lò,eramt̪ajkiʃolo,my co-wife is good,To feel good is good
+782,ɛ̀bɛ̀í kìcə̀lò,ebɛjeʔitil,my sibling-in-law is good,my brother is good
+783,ùnɛ́j kìcə̀lò,ʊnajekəcilo,my parent-in-law is good,The bowl is good.
+784,wǎj kìcə̀lò,vakicilo,my wife is good,The vaccine is good.
+785,wáló kìcə̀lò,wanokeʃeno,your wife is good,water is good
+786,èðɔ̀ŋ kɛ́ ŋɛ́n,iðoŋkɛɲɛ,offspring of dog,the dog ate rabbit
+787,kɜ́cí ŋɔ̀mɔ̌ kúɽìɟɛ̀n káré t̪ɔ́wə̀nì,kacimomɔkolɪeŋkaret̪onə,Take the food from inside the calabash now,Take the food from the calabash now
+788,ɔ̀ráí kìcə̀lò,arajkiʃil,my brother is good,It's the brother that the boy is good.
+789,àrò kìcə̀lò,alookicino,his/her brother is good,Look for a trough!
+790,ɔ̀ràlí kìcə̀lò,araliɡecilo,our (dual) brother is good,our (incl) mother is good
+791,árt̪ɔ́ ŋámàcì kúkùŋù,art̪oŋamacɪkʊk,Tell him to wait for Kuku,Tell him to wait for Kuku now
+792,lùɽbí lìcə̀lò,ord̪ileʃil,The jujube fruit is good.,That pot is good
+793,ðábrá ðìcə̀lò,rabravecilɔ,To jump is good,The rabbit is good.
+794,ðáwá ðìcò,ðawaðico,To urinate is bad,To wash is good
+795,kɛ́cɛ́cí rɔ̀mɔ̀cà ŋɔ̀mɔ̀ t̪ɔ́wə̀nì,vececirɔmʃamut̪ni,Take the food from the men now! (malefactive),Take the food from the calves now!
+796,kɛ́cɛ́cí ɲɛ̀mbə̀ɽó ŋɔ̀mɔ̀ t̪ɔ́wə̀nì,kɟaciɲembloŋəmot̪oani,Take the food from the calves now! (malefactive),Take the food from the calabash now
+797,ɛ̀ɾə̀mt̪ù kìcəlò,ɛrəmfikecelo,a co-wife is good,The feather is good.
+798,íŋgóẁ kúɽì kárè,eŋɡokʊlikaɾe,íŋɡóẁ kúɽì kárè,I cooked soup yesterday
+799,kúɽì kìcə̀lò,kʊlɪkeʃelo,The forest is nice,The bird is good.
+800,ɛ̀màð kìcə̀lʊ̀,emaðkicil,a peer is good,The stick is good.
+801,ðájá ðìcò,ðoaðɪʔo,Dying is bad.,That tiger is good.
+802,lùɽbí lìcə̀lò,torbelecil,The jujube fruit is good.,The skirts are beautiful
+803,ŋùɽbí ŋìcə̀lò,muldbinicelo,The jujube fruits are good.,The mud is good.
+804,jàbà jìcə̀lò,ajabaicilo,Stars are good.,The fox is good.
+805,ɜ́rú kìcə̀lò,arokiʃilo,The spiderweb is good.,This support pole is good.
+806,ŋìcə̀lò,netelɔ,is good (class ŋ),The pens are good.
+807,ðícɔ́ ðìcɔ̀,viʃod̪ɪʃɔ,To be bad is bad,Coughing is good.
+808,kìjɔ́ ŋɔ́mɔ̀,ʔiama,He ate food,?
+809,nùn nìcə̀lò,anonecelo,The porcupines are good,the stones are good
+810,bàcʊ̂m k bàcʊ̂m kàvə́lɛ̀ðɛ̀ ðɛ̀dɔ̀ɽɔ̀ unɛɾɛ,bacɔmvacənkəvleðovɾaronara,The fox...The fox pulled the root towards yesterday.,The man pulled the sheep (towards) yesterday
+811,kɔ̀ɽɟɛ̀cíŋì,kolɟacɪŋɪ,part of: He helped me yesterday.,Intended: He helped him
+812,kə̀ɔ̀ɽɟɛ̀cíŋì,kaorɟecimɪ,part of: He helped me yesterday.,Break the log! (towards)
+813,kɔ̀ɽɟɛ̀cáŋà ánó unɛɾɛ kə̀ɔ̀ɽɟɛ̀cáŋà ánó unɛɾɛ kɔ̀ɽɟɛ̀cáŋà ánó unɛɾɛ,kɔrɟeʃamalnevesikenskɔɟeʃamaarnararokolɟaʃanannere,He helped you yesterday. [spoken three times],You helped him yesterday and left.
+814,rùɽú rìcə̀lò,alɔrəcelo,The ostriches are good.,The skins are good.
+815,t̪ʊ̀lí támə̀rðɛ̀ àpríɲà,t̪oletamrðeapreɲə,the lion bit the boy (and the lion left),the lion was biting the boy
+816,àprí lìdìjí lɛ́rà,apɾɛlielɛra,the boy dropped the ball,the boy was big
+817,lápə́ɽà ðùɽì,laplaðʊlɪ,They will remove the tree from the ground.,They will hit the wood
+818,lápə̀ɽɔ́ ðúɽì,lapɾɔðʊlɪ,They will remove the tree from the ground (far).,The bird in the tree
+819,dìjɔ́ rìcɔ̀,ðirɪko,The cow is bad.,This is a dog
+820,ùɟí kìcò,ʊɟekɛcɔ,The person is bad.,The person is good.
+821,ðírcɔ̀ ðírcɔ̀,ðerʔɔðɪrʃɔ,to try ,This Tira person is good.
+822,lábə̀ɽàló,labralo,They will fall (far),They will grind tomorrow.
+823,lábə́ɽàlò,labɾalo,They will fall,Parts of: They will fall tomorrow.
+824,t̪ʊ̀lí t̪ìrci t̪ámɔ́rðà àpríɲà,t̪olet̪ɪrkitamrd̪preɲa,"The lion tried to bite the boy.’
+",the lion bit the boy
+825,t̪ʊ̀lí t̪á írcɔ̀ t̪ámɔ́rðà àpríɲà,t̪olesarcɔt̪amvapreɲa,The lion will try to bite the boy.,the lion should bite the boy
+826,là ŕɽìɲàɲɛ̀,lalɲaɲe,they killed often (APFV),they killed often (VPFV)
+827,lɛ̀kɜ̀rcɜ̀cí,lekarkekɪ,they took away  ,medicine is good
+828,lìrdɔ̀dù,lɪd̪əd̪u,they fell often,they fell often
+829,lə̀t̪ə̀rvàvɔ̀,lat̪rvavɔ,they cut often,they will cut the rope
+830,lə̀pàpìðú,papiðɔ,they beat often,the boy is tall
+831,lə̀bɽɔ̀ðìðú,brɔriðo,they hit often,The fox is good.
+832,lɛ̀kàkàrɔ̀,lekakaro,they break often,Kakaro is good
+833,là kákàrì,lakakaɾrɪ,they break often,The coconut is inside the tree
+834,lɛ̀rəcàcì̀,lɛrʃakɪ,they pour often,their mother
+835,lə̀ùrt̪ɔ̀t̪ɔ̀,nʊrɔt̪ɔt̪o,they often dig,they often dig
+836,là úrɔ̀t̪ɛ̀t̪ɛ̀,laɔlat̪pɛt̪ə,they often dig,They will run for you (here)
+837,là úrɔ̀t̪ɔ̀t̪ɛ̀,laorɔt̪at̪e,they often dig,They will climb down quickly (far)
+838,lɛ̀kàrkàrɔ̀,nekarka,they often break,It's the calf that the dog fears
+839,là kárkàrɛ̀,lakarkare,they often break,they will wrestle each other
+840,ìcɔ̀ kìcɔ̀,icəkɪcɔ,Badness is bad,The sheep is good.
+841,ðál ðô ìdú,ralðovid̪ʊ,the stick will fall from it (the tree),they will cut wood tomorrow
+842,lál lɛ́ré ídú,alðerid̪ʊ,The bowl will fall from it (l-class) (far),‘they cut the rope (and left)’

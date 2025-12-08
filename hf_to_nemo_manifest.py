@@ -22,10 +22,14 @@ HF_SRC_COLUMN = "transcription"
 HF_TEXT_COLUMN = "translation"
 
 # 4. Define the target keys for the NeMo manifest (must be absolute paths)
+NEMO_TASK = "ast"
 NEMO_AUDIO_KEY = "audio_filepath"
 NEMO_DURATION_KEY = "duration"
-NEMO_SRC_KEY = "text"
-NEMO_TEXT_KEY = "pred_text"
+NEMO_SRC_KEY = "source_text"
+NEMO_SRC_LANG = "sw"
+NEMO_TGT_LANG = "en"
+NEMO_TEXT_KEY = "text"
+NEMO_PNC = 'yes'
 
 
 # --- END CONFIGURATION ---
@@ -49,30 +53,42 @@ def process_and_save_audio(example, audio_output_dir):
     unique_filename = f"{uuid.uuid4()}.wav"
     audio_filepath = os.path.join(audio_output_dir, unique_filename)
 
-    # 3. Save the audio array to a WAV file
+    # 3. Extract target text
+    text = str(example[HF_TEXT_COLUMN])
+    src_text = str(example[HF_SRC_COLUMN])
+    
+    # 4. Save the audio array to a WAV file
     try:
         # Use soundfile to write the numpy array to a WAV file
-        sf.write(audio_filepath, audio_array, sampling_rate, format='WAV')
+        if not os.path.exists(audio_filepath):
+            sf.write(audio_filepath, audio_array, sampling_rate, format='WAV')
     except Exception as e:
         # Return empty paths/zero duration if saving fails
         print(f"Error saving audio for a sample: {e}")
         return {
             "audio_filepath": "",
             "duration": 0.0,
-            "text": str(example[HF_TEXT_COLUMN])
+            NEMO_TEXT_KEY: text,
+            'target_lang': NEMO_TGT_LANG,
+            NEMO_SRC_KEY: src_text,
+            'source_lang': NEMO_SRC_LANG,
+            'task': NEMO_TASK,
+            'pnc': NEMO_PNC,
         }
 
-    # 4. Calculate duration
+    # 5. Calculate duration
     duration = len(audio_array) / sampling_rate
-
-    # 5. Extract target text
-    text = str(example[HF_TEXT_COLUMN])
 
     # Return the data needed for the NeMo manifest
     return {
         "audio_filepath": os.path.abspath(audio_filepath),  # MUST be absolute path
         "duration": duration,
-        "text": text,
+        NEMO_TEXT_KEY: text,
+        'target_lang': NEMO_TGT_LANG,
+        NEMO_SRC_KEY: src_text,
+        'source_lang': NEMO_SRC_LANG,
+        'task': NEMO_TASK,
+        'pnc': NEMO_PNC,
     }
 
 

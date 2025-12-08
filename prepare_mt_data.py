@@ -8,7 +8,7 @@ from constants import (
 )
 
 
-def prepare_data(tira_col: str, train_path: str, val_path: str):
+def prepare_data(tira_col: str, train_path: str, val_path: str, condense_inputs: bool =  False):
     print("="*40)
     print("🛠️ Tira Translation Data Prep")
     print("="*40)
@@ -44,9 +44,13 @@ def prepare_data(tira_col: str, train_path: str, val_path: str):
     tokenizer.tgt_lang = TGT_LANG_CODE
 
     def preprocess_function(examples):
-        model_inputs = tokenizer(examples['src_text'], max_length=128, padding="max_length", truncation=True)
+        input_strs = examples['src_text']
+        if condense_inputs:
+            input_strs = [input_str.replace(' ', '') for input_str in input_strs]
+        model_inputs = tokenizer(input_strs, max_length=128, padding="max_length", truncation=True)
         with tokenizer.as_target_tokenizer():
-            labels = tokenizer(examples['tgt_text'], max_length=128, padding="max_length", truncation=True)
+            label_strs = examples['tgt_text']
+            labels = tokenizer(label_strs, max_length=128, padding="max_length", truncation=True)
         model_inputs["labels"] = labels["input_ids"]
         return model_inputs
 
@@ -59,5 +63,19 @@ def prepare_data(tira_col: str, train_path: str, val_path: str):
     print("\n✅ Data preparation complete!")
 
 if __name__ == "__main__":
-    prepare_data("transcription", TRAIN_DATA_PATH, VAL_DATA_PATH)
-    prepare_data("allophant_phonemes", ALLOPHANT_TRAIN_PATH, ALLOPHANT_VAL_PATH)
+    prepare_data(
+        "transcription",
+        TRAIN_DATA_PATH,
+        VAL_DATA_PATH
+    )
+    prepare_data(
+        "allophant_phonemes",
+        ALLOPHANT_TRAIN_PATH,
+        ALLOPHANT_VAL_PATH
+    )
+    prepare_data(
+        "allophant_phonemes",
+        ALLOPHANT_TRAIN_PATH+'_condensed_inputs',
+        ALLOPHANT_VAL_PATH+'_condensed_inputs',
+        condense_inputs=True,
+    )

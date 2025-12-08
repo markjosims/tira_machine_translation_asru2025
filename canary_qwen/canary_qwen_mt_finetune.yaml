@@ -1,6 +1,6 @@
 # @package _global_
 # generated with Gemini Fast on 5 Dec 2025
-name: "Canary_Qwen_Tira_MT_Finetune"
+name: "Canary_Qwen_Tira_MT"
 
 # 1. Boilerplate Trainer Config
 trainer:
@@ -14,12 +14,12 @@ trainer:
   gradient_clip_val: 1.0
   accumulate_grad_batches: 16
   val_check_interval: -1 # set dynamically in `train_canary.py`
-  logger: False
+  logger: True
   max_steps: -1
 
 # 2. Experiment Manager
 exp_manager:
-  exp_dir: "${oc.env:NEMO_EXP_DIR, .}/canary_tira_mt_finetune"
+  exp_dir: "${oc.env:NEMO_EXP_DIR, .}/canary_qwen_tira_mt"
   name: ${name}
   create_checkpoint_callback: False
   create_tensorboard_logger: True
@@ -48,7 +48,7 @@ model:
   # We freeze the massive LLM and only train small adapters
   peft:
     enabled: true
-    peft_scheme: "lora"
+    peft_scheme: "lora" # use qlora for less memory footprint
     lora_tuning:
       adapter_dim: 32
       adapter_dropout: 0.05
@@ -65,6 +65,8 @@ model:
       n_layers: 32
       d_model: 1024
       # ... other encoder params can be left to default or added if needed
+      # activation_checkpointing: true  # uncomment for less memory footprint
+      # activation_checkpointing_mode: 'full'
 
     # The Preprocessor (Standard AudioToMel)
     preprocessor:
@@ -84,7 +86,7 @@ model:
 
   # Optimizer config (Standard for LLM fine-tuning)
   optimizer:
-    _target_: torch.optim.AdamW
+    _target_: torch.optim.AdamW # bitsandbytes.optim.AdamW8bit for less memory footprint
     lr: 1e-4
     weight_decay: 0.01
     betas: [0.9, 0.95]
